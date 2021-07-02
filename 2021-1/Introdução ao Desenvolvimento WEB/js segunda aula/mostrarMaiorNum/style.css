@@ -1,0 +1,15 @@
+body{
+    background-image: url(./IMG/numeros.jpg);
+}
+
+label{
+    font-size: 20px;
+}
+
+.tudo{
+    background-color: rgba(0, 255, 255, 0.796);
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 100px;
+}

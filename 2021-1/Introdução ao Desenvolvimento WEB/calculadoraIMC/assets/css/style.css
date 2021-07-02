@@ -1,0 +1,15 @@
+body{
+    height: 850px;
+    background-color: rgb(134, 209, 91); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(134, 209, 91), rgb(0, 51, 15));
+    padding-top: 100px;
+}
+
+label{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+h5{
+    margin-top: 25px;
+}

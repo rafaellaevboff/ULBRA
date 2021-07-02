@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="text-center">
+
+    <div class="fundo">
+        <header>
+            <h1>CALCULADORA</h1>
+        </header>
+
+        <section class="p-5">
+            <form action="#">
+                <input id="num1" name="val1" title="val1" type="number">
+
+                <select class="p-1" name="operacao" id="sinal" title="operacao">
+                    <option value="nulo"></option>
+                    <option value="+">Soma(+)</option>
+                    <option value="-">Subtração(-)</option>
+                    <option value="*">Multiplicação(*)</option>
+                    <option value="/">Divisão(/)</option>
+                </select>
+
+                <input id="num2" name="val2" title="val2" type="number">
+                <br>
+                <button type="button" class="mt-4 border border-dark p-2" name="botao" onclick="calcular()"> Calcular </button>
+                <br>
+
+                <label class="pt-5 pb-5" name="resultado" id="result"></label>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>

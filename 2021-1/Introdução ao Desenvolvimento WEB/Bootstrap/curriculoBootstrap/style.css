@@ -1,0 +1,31 @@
+body{
+    padding: 20px 250px 70px 250px;
+}
+
+.nome{
+    background-color: aqua;
+    font-size: 35px;
+}
+
+.apresentacao{
+    font-size: 20px;
+    padding-top: 90px;
+}
+
+.imagem{
+    min-height: 250px;
+    min-width: 250px;
+    max-width: 170px;
+}
+
+h2, h3{
+    color: aqua;
+}
+
+.tituloContato{
+    color: aqua;
+}
+
+.empresas{
+    padding-top: 15px;
+}

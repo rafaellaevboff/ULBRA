@@ -1,0 +1,87 @@
+article{
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+aside{
+    border: black 1px solid;
+}
+
+header{
+    text-align: center;
+    border: black 1px solid;
+    width: 63.4%;
+    min-height: 200px;
+}
+
+span{
+    color: #ff7d55;
+    font-weight: 800;
+}
+
+.nomeJornalistas{
+    color: rgb(221, 178, 84);
+}
+
+.imagem{
+    max-height: 120px;
+}
+
+.imgNoticia{
+    height: 150px;
+    width: 230px;
+}
+
+.texto_serie{
+    font-weight: 700;
+    font-size: 18px;
+    color: gray;
+}
+
+.meuchocolate{
+    background-color: rgb(255, 236, 238);
+    height: 230px;
+}
+
+.imgChocolate{
+    height: 180px;
+    width: 200px;
+    padding-top: 70px;
+}
+
+footer{
+    background-color: #ff7d55;
+    border: black 1px solid;
+    width: 63.4%;
+    height: 10em;
+}
+
+.logo{
+    width: 200px;
+}
+
+.texto_footer{
+    width: 425px;
+    font-size: 14px;
+}
+
+.contato_tudo{
+    text-align: right;
+    font-size: 12px;
+}
+
+.contato{
+    font-weight: 700;
+}
+
+.whats{
+    width: 30px;
+    height: 30px;
+}
+
+.redes_sociais{
+    float: right;
+}
+
+.botao{
+    width: 200px;
+}

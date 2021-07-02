@@ -1,0 +1,29 @@
+body{
+    background-image: url("./IMG/mapa-mundi.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+
+.conteudo{
+    margin-top: 250px;
+    padding-bottom: 30px;
+    background-color: rgb(125, 141, 127);
+}
+
+#resultado{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+#titulo1{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#consultar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

@@ -1,0 +1,120 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    background-color: #80d4ff;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    color:#80d4ff;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+h3{
+    color: #80d4ff;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+h4{
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+hr{
+    border-color: #80d4ff; 
+    margin-top: 0px;    
+}
+
+p{
+    margin-top: 0;
+    text-align: justify;
+}
+
+/*estilos de classes*/
+.tudo{
+    width: 50%;
+    border: solid 1px black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px;
+}
+
+.linha{
+    clear: both;
+}
+
+.tituloContato{
+    color: #80d4ff;
+}
+
+.circle{
+    height: 09px;
+    width: 09px;
+    margin-left: 10px;
+    background-color: #80d4ff;
+    float: right;
+    border-radius: 50%;
+}
+
+.itens{
+    float: left;
+}
+
+/*estilos de id's*/
+
+#foto{
+    width: 30%;
+    float: left;
+}
+#imgFoto{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%; 
+}
+#contato{
+    width: 70%;
+    float: left;
+    font-size: 20px;
+    vertical-align: middle;
+}
+#objetivos{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#formacao{
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#coluna1{
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 45%;
+}
+
+#coluna2{
+    background-color: #80d4ff;
+    float: left;
+    width: 2px;
+    height: 400px;
+}
+
+#coluna3{
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 45%;
+}

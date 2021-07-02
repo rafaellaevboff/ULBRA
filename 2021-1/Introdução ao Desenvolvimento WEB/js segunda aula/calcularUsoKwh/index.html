@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Conta de Luz</title>
+    
+</head>
+<body>
+
+    <div class="interagir px-2 py-5 text-center">
+        <header>
+            <h1>Calcular consumo de energia elétrica</h1>
+        </header>
+
+        <form action="#">
+            <section class="container-fluid">
+                <div class="row pt-5 justify-content-center">
+                    <div>
+                        <h5>Informe o valor unitário do Kwh</h5>
+                        <input id="valor" type="text">
+                    </div>
+                    <div>
+                        <h5 class="segTxt">Informe a quantidade de Kwh consumido</h5>
+                        <input id="quantidadeKwh" type="text">
+                    </div>
+                </div> 
+                    
+                <br>
+
+                <button type="button" onclick="calcular()" class="mt-5"><h6>CALCULAR</h6></button>
+                
+                <br>
+
+                <label id="tela" class="pt-5" for=""></label>
+            </section>
+        </form>
+    </div>
+</body>
+</html>

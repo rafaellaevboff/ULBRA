@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 1.58;
+}
+
+.menu {
+    background-color: rgb(95, 158, 160);
+    color: white;
+}
+
+.banner {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 280px;
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.541176);
+    font-size: 28px;
+}
+
+a {
+    color: cadetblue;
+}

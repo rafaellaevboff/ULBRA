@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px;
+}
+
+a{
+    color: ivory;
+}
+
+h1{
+    float: left;
+    font-family: initial;
+}
+
+h2{
+    color: #fff
+}
+
+h3{
+    float: left;
+    width: 25%;
+}
+
+h4{
+    color: black;
+    font-size: 25px;
+}
+
+header{
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    min-height: 90px;
+    border-top: solid 1px rgb(153, 153, 153);
+}
+
+nav{
+    float: right;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+article{
+    background-color: rgb(44, 187, 149);
+    width: 100%;
+    padding: 30px;
+    color: #fff;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    min-height: 100px;
+}
+
+.habilidadesFotos{
+    float: left;
+    max-height: 200px;
+    width: 32%;
+}
+
+.p{
+    color: black;
+    float: left;
+    width: 33%;
+    font-size: 18px;
+}
+
+#minhaFoto{
+    max-width:250px;
+    border-radius: 50%; 
+}
+
+#pesquisa{
+    background-color: rgb(46, 46, 46);
+}
+
+#lupa{
+    width: 50px;
+}
+
+#trabalhos{
+    background-color: #fff;
+    min-height: 470px;
+}
+
+#centralizar{
+    text-align: center;
+}
+
+#fonteTamanho{
+    font-size: 20px;
+}

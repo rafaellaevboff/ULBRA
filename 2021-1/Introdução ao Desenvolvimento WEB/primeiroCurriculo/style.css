@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(123, 123, 123);
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#nome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:170%;
+    border-style: solid;
+    border-color: solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(76, 82, 87);
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border-style: solid;
+    border-color: solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(76, 82, 87);
+}
+.esquerda{
+    width: 70%;
+    float: left;
+}
+.tudo{
+    justify-content: center;
+    display: flex;
+}

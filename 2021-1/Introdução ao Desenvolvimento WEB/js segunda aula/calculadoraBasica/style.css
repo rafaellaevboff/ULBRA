@@ -1,0 +1,19 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    background-image: url(./IMG/numeros.jpg);
+}
+
+.fundo{
+    background-color: rgba(30, 45, 252, 0.905);
+    margin-top: 180px;
+    margin-right: 370px;
+    margin-left: 370px;
+    height: 500px;
+    padding-top: 120px;
+    border-radius: 50px;
+}
+
+.result{
+    padding-bottom: 0px;
+}
