@@ -6,12 +6,12 @@ header{
 
 footer{
     background-image: linear-gradient(rgb(131, 154, 245), rgb(255, 154, 230));
-    min-height: 150px;background-color: rgb(37, 87, 225);
+    min-height: 150px;
     color: #fff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#horarioAtendimento{
+#horarioAtendimentoSobreLoja{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
@@ -49,18 +49,17 @@ a:hover, a:active {
 
 .roupas{
     max-width: 150px;
+    margin-left: 70px;
 }
 
 .descricaoRoupas{
     text-align: center;
     margin-top: 50px;
 }
-.descricaoRoupas2{
-    text-align: left;
-    margin-top: 50px;
-}
 
 #logoLoja{
-    padding-top: 150px;
-    padding-left: 200px;
+    margin-left: 115px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100px;
 }
