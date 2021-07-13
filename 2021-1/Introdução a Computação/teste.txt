@@ -1,0 +1,11 @@
+Conceitos Básicos e História da computação
+
+Modelo de Von Neumann
+Périféricos e Softwares
+
+Aprender a usar Git e GitHub
+
+Sistemas de numeração(decimal, binário, octal e hexadecimal)
+Lógica Binária
+Tabela Verdade
+Portas lógicas
