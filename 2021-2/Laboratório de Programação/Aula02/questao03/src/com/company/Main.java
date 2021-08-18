@@ -21,9 +21,9 @@ public class Main {
         media = (prova1 + prova2 + trabalho) / 3;
 
         if(media >= 6) {
-            JOptionPane.showInputDialog("APROVADO!");
+            JOptionPane.showMessageDialog(null,"APROVADO!");
         } else {
-            JOptionPane.showInputDialog("REPROVADO!");
+            JOptionPane.showMessageDialog(null, "REPROVADO!");
         }
     }
 }

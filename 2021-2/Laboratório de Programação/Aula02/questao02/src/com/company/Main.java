@@ -26,6 +26,6 @@ public class Main {
 
         valorImposto = (maiorValor * percentualImposto) / 100;
 
-        JOptionPane.showInputDialog("O valor do Imposto a ser pago é: " + valorImposto);
+        JOptionPane.showMessageDialog(null, "O valor do Imposto a ser pago é: " + valorImposto);
     }
 }

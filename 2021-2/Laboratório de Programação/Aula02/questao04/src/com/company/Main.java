@@ -21,23 +21,23 @@ public class Main {
     if(g == 'f'){
         if(idade >= 60){
             if(tempoContribuicao >= 30){
-                JOptionPane.showInputDialog("Você já tem o direito a aposentadoria!");
+                JOptionPane.showMessageDialog(null,"Você já tem o direito a aposentadoria!");
             }else{
-                JOptionPane.showInputDialog("Você não tem o direito a aposentadoria!");
+                JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
             }
         }else{
-            JOptionPane.showInputDialog("Você não tem o direito a aposentadoria!");
+            JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
         }
     }
         if(g == 'm'){
             if(idade >= 65){
                 if(tempoContribuicao >= 35){
-                    JOptionPane.showInputDialog("Você já tem o direito a aposentadoria!");
+                    JOptionPane.showMessageDialog(null,"Você já tem o direito a aposentadoria!");
                 }else{
-                    JOptionPane.showInputDialog("Você não tem o direito a aposentadoria!");
+                    JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
                 }
             }else{
-                JOptionPane.showInputDialog("Você não tem o direito a aposentadoria!");
+                JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
             }
         }
 
