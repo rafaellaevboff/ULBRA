@@ -9,6 +9,12 @@ public class Main {
     String ler;
     char g;
 
+    final int IDADE_MASC_APOSENTAR = 65;
+    final int IDADE_FEM_APOSENTAR = 60;
+
+    final int TEMPO_CONT_MASC = 35;
+    final int TEMPO_CONT_FEM = 30;
+
     ler = JOptionPane.showInputDialog("Seu gênero. Digite f para feminino e m para masculino: ");
     g = ler.charAt(0);
 
@@ -19,27 +25,25 @@ public class Main {
     tempoContribuicao = Integer.parseInt(ler);
 
     if(g == 'f'){
-        if(idade >= 60){
-            if(tempoContribuicao >= 30){
-                JOptionPane.showMessageDialog(null,"Você já tem o direito a aposentadoria!");
-            }else{
-                JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
-            }
+        if(idade >= IDADE_FEM_APOSENTAR) {
+            JOptionPane.showMessageDialog(null, "Você já tem o direito a aposentadoria por idade!");
+        }
+        else if(tempoContribuicao >= TEMPO_CONT_FEM){
+                JOptionPane.showMessageDialog(null,"Você já tem o direito a aposentadoria por tempo de contribuição!");
+        }
         }else{
             JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
         }
-    }
-        if(g == 'm'){
-            if(idade >= 65){
-                if(tempoContribuicao >= 35){
-                    JOptionPane.showMessageDialog(null,"Você já tem o direito a aposentadoria!");
-                }else{
-                    JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
-                }
-            }else{
-                JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
-            }
-        }
 
+    if(g == 'm'){
+        if(idade >= IDADE_MASC_APOSENTAR){
+            JOptionPane.showMessageDialog(null,"Você já tem o direito a aposentadoria por idade!");
+        }
+        else if(tempoContribuicao >= TEMPO_CONT_MASC){
+            JOptionPane.showMessageDialog(null,"Você já tem o direito a aposentadoria por tempo de contribuição!");
+        }
+    }else{
+        JOptionPane.showMessageDialog(null,"Você não tem o direito a aposentadoria!");
+    }
     }
 }

@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Digite o valor do produto: ");
         valorProduto = ler.nextDouble();
 
-        if(valorProduto > 0 && valorProduto <50){
+        if(valorProduto > 0 && valorProduto < 50){
             System.out.println("Produto: " + nomeProduto);
             System.out.println("Você não tem desconto.");
             System.out.println("Valor a pagar: R$" + valorProduto);
