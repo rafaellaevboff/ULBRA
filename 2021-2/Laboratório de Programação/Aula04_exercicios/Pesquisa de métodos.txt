@@ -1,0 +1,19 @@
+Métodos JAVA:
+
+sqrt -  é utilizado para calcular uma raíz quadrada de um número e retornar o resultado.
+Exemplo de como usar: Math.sqrt(num).
+
+pow - é utilizado para calcular uma potência e retornar o resultado.
+Exemplo de como usar: Math.sqrt(base, expoente).
+
+abs - é utilizado para retornar o valor absoluto de um número, sempre positivo. Se for informado um valor negativo ele irá retornar o valor positivo.
+Exemplo de como usar: Math.abs(num)
+
+cbrt - é utilizado para retornar a raíz cúbica de um valor.
+Exemplo de como usar: Math.cbrt(num).
+
+min - é utilizado para retornar o mínimo de dois números.
+Exemplo de como usar: Math.min(a, b).
+
+-Onde podemos encontrar outros métodos de classe Java?
+Podemos encontrar outros métodos de classe Java no seguinte site: https://docs.oracle.com/javase/8/docs/api/

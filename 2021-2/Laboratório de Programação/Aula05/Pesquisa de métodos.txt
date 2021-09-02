@@ -1,0 +1,17 @@
+MÉTODOS JAVA
+
+trim - 
+
+equals -
+
+equalsIgnoreCase -
+
+compareTo -
+
+compareToIgnoreCase -
+
+replace -
+
+valueOf -
+
+indexOf -
