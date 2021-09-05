@@ -1,0 +1,62 @@
+MÉTODOS JAVA
+
+trim - o método trim remove os espaços em branco no início e no final do texto.
+Exemplo:
+String teste = "  testando   ";
+String semEspaco = teste.trim();
+System.out.println(semEspaco); //irá retornar "testando"
+
+
+equals - o método equals serve para comparar se uma string é igual a outra.
+Exemplo:
+String nome1 = "Pedro";
+String nome2 = "Ana";
+if(nome1.equals(nome2)) {
+	System.out.println("Os nomes são iguais.");
+}else{
+        System.out.println("Os nomes são diferentes.");
+}
+
+
+equalsIgnoreCase - o método equalsIgnoreCase ignora se as strings tem letras maiúsculas ou minúsculas e foca se é a mesma palavra/frase.
+Exemplo:
+String ex01 = "ANA";
+String ex02 = "ana";
+System.out.println(ex01.equals(ex02)); //irá retornar "false", pois não estão escritas da mesma forma, ujma está com letras maiúsculas e outra com letras minúsculas.
+//USANDO O MÉTODO:
+System.out.println(ex01.equalsIgnoreCase(ex02)); //irá retornar "true"
+
+
+compareTo - compara duas strings, se as duas strings tiverem a mesma quantidade de caracteres ele irá retornar 0, caso contrário irá retornar outro número.
+Exemplo:
+String igual1 = "Hello";
+String igual2 = "Hello";
+String diferente = "Olá";
+System.out.println(igual1.compareTo(igual2)); //irá retornar 0, porque são iguais.
+System.out.println(igual1.compareTo(diferente)); //irá retornar um valor negativo, pois diferente tem menos caracteres que igual1;
+System.out.println(diferente.compareTo(igual1)); //irá retornar um valor positivo, pois igual1 tem mais caracteres que diferente;
+
+
+compareToIgnoreCase - irá comparar duas string, sem levar em conta se as string são escritas com letras maiúsculas ou minúsculas, se forem iguais irá retornar 0, senão retornará outro número.
+Exemplo:
+String maiuscula = "HELLO";
+String minuscula = "hello";
+System.out.println(maiuscula.compareToIgnoreCase(minuscula)); //irá retornar 0.
+
+
+replace - substitui um caracter ou uma sequência de caracteres de uma String.
+Exemplo:
+String brasil = "Brasil";
+System.out.println(brasil.replace("s","z"));//irá imprimir na tela "Brazil"
+
+valueOf - converte uma variável númerica em String.
+Exemplo:
+int num = 100;
+String convertido = String.valueOf(num);
+System.out.println(convertido + convertido);//irá imprimir 100100, pois 100 é uma string, então irá concatenar as strings e não somar.
+
+
+indexOf - irá retornar o index(posição) de um char(caracter) dentro de uma string.
+Exemplo:
+String nome = "Rafaella";
+System.out.println(nome.indexOf("f"));
