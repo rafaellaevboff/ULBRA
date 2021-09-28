@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="289f3a27-c5ca-4dda-983c-b3316593488d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Aula04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/Aula04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/out/production/Aula04/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula04/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/exercicio01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/out/production/exercicio01/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/exercicio01/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/out/production/tde_exercicio01/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio01/tde_exercicio01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/out/production/tde_exercicio02/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio02/tde_exercicio02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/out/production/Aula06/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/out/production/tde_exercicio03/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio03/tde_exercicio03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/out/production/tde_exercicio04/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio04/tde_exercicio04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/out/production/tde_exercicio05/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06/tde_exercicio05/tde_exercicio05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula07_exercicios/exercicio02/src/com/company/Contagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula07_exercicios/exercicio02/src/com/company/Contagem.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1ymcdm0pV0KR8A9wH6ZQvm2qyKD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="289f3a27-c5ca-4dda-983c-b3316593488d" name="Changes" comment="" />
+      <created>1632860293844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632860293844</updated>
+      <workItem from="1632860295891" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

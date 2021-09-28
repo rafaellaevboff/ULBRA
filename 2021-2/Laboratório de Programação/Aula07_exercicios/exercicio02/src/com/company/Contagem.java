@@ -2,14 +2,6 @@ package com.company;
 
 public class Contagem {
 
-    public static void main(String[] args) {
-        contar();
-        contar(5);
-        contar(2,8);
-        contar(2,8, 2);
-
-    }
-
     public static void contar(){
         System.out.println("Contagem de 1 a 10");
         for(int i=1; i <= 10; i++){
