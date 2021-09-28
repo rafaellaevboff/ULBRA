@@ -5,11 +5,15 @@ public class Main {
     // 4 e armazenar os valores 3, 4, 1, 5, o String “{3, 4, 1, 5}” deve ser criado e exibido.
 
     public static void main(String[] args) {
-        int [] data = {1,2,3,4,5};
-
-
-        for(int i =0; i < data.length; i++){
-            System.out.println(data[i] + ", ");
+        int[] data = {1, 2, 3, 4, 5};
+        for(int i = 0; i < data.length; i++) {
+            System.out.println(data[i]);
         }
+
+        StringBuilder string = new StringBuilder();
+        for (int i = 0; i < data.length; i++){
+            string.append(data[i] + ", ");
+        }
+        System.out.println(string);
     }
 }

@@ -3,7 +3,7 @@ package com.company;
 public class Senha {
 
     public static void main(String[] args) {
-        System.out.println("A senha é:");
+        System.out.println("A senha gerada é: ");
         System.out.println(gerar());
     }
 
