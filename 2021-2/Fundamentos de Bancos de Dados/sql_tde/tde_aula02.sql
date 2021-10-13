@@ -1,9 +1,11 @@
 CREATE table fornecedores
 (
-  codigo int not null,
+  codigo int not null auto_increment primary key,
   nome varchar(80) not null
 );
-  
+ALTER TABLE fornecedores
+MODIFY nome varchar(110) not null;
+
 ALTER TABLE fornecedores
 ADD COLUMN data_ultima_compra date not null;
     
@@ -11,7 +13,7 @@ DROP TABLE fornecedores
 
 CREATE TABLE produtos
 (
-   codigo int not null,
+   codigo int not null auto_increment primary key,
    descricao varchar(200) not null,
    data_cadastro date not null,
    valor_unitario float not null
@@ -22,7 +24,7 @@ DROP COLUMN data_cadastro
   
 CREATE table categorias
 (
-    codigo int not null,
+    codigo int not null auto_increment primary key,
     nome varchar(80) not null,
     codigo_produtos int not null,
     
