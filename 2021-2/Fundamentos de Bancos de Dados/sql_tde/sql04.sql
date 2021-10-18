@@ -1,3 +1,6 @@
+-- revisão do conteúdo
+-- correção do exercício da última aula 
+
 CREATE table fornecedores
 (
   codigo int not null auto_increment primary key,
@@ -49,7 +52,7 @@ where codigo = '456'
  -- visualizar a tabela
 SELECT * FROM produtos;
 
- -- criar uma nova coluna, com uma conta de aumento de preço
+ -- criar uma nova coluna, com uma conta de aumento de preço. Não existe no SGBD em si, ela existe em tempo de exibição
 select *, valor_unitario+((valor_unitario*10)/100) as valor_com_acrescimo
 from produtos
  -- alterar o valor quando o valor unitario for maior que 10
@@ -57,10 +60,14 @@ Select *, valor_unitario *1.10 AS novo_valor
 FROM produtos 
 where valor_unitario > 10
 
- -- procurar linhas que tenham a palavra blazer
-SELECT * from produtos
-WHERE descricao like '%%blazer%%'
-
+ -- procurar linhas que tenham a letra 'e'
+SELECT *
+FROM produtos
+WHERE descricao LIKE '%e%'
+--Quando é palavra inteira não precisa dos %%:
+SELECT *
+FROM produtos
+WHERE descricao LIKE 'blazer'
 
 CREATE table categorias
 (
@@ -102,3 +109,56 @@ values
 
  -- visualizar a tabela
 SELECT * FROM pedidos;
+
+-- Consulte os pedidos que foram feitos no mês de outubro
+select *
+from pedidos
+where data_pedido>='2021-10-01' and  data_pedido<='2021-10-31'
+
+-- otimizar o comando a nível de desenvolvedor, pode demorar um pouco mais, por isso não é legal usar em banco de dados maiores:
+select *
+from pedidos
+where data_pedido between '2021-10-01' and data_pedido<='2021-10-31'
+
+--Extrai um "pedaço" de uma data
+select *
+from pedidos
+where MONTH(data_pedido) = 10
+
+--retorna TODOS os meses de agosto, não importando o ano
+select *
+from pedidos
+where MONTH(data_pedido) = MONTH('2021-10-09')
+--pode ser MONTH, DAY OU YEAR ali
+
+-- mostrar datas em forma de tabela:
+SELECT day(CURRENT_DATE) AS dia, month(CURRENT_DATE) AS mes, YEAR(CURRENT_DATE) AS ano;
+
+-- quem é executado primeiro no banco de dados?
+-- 3 - select (sempre é a última a executar)
+-- 1 - from
+-- 2 - where
+
+SELECT COUNT(valor_unitario) AS quantos_temos
+FROM produtos
+
+SELECT SUM(valor_unitario) AS soma_dos_termos
+FROM produtos
+
+SELECT AVG(valor_unitario) AS media_de_preco
+FROM produtos
+
+SELECT MIN(valor_unitario) AS valor_minimo
+FROM produtos
+
+SELECT MAX(valor_unitario) AS valor_maximo
+FROM produtos
+
+SELECT MAX(codigo) + 1 AS auto_increment_new
+FROM produtos
+
+-- soma total dos pedidos que foram feitos em dezembro de 2020... fornecedores
+SELECT MAX(valor_pedido) AS total
+FROM pedidos
+WHERE data_pedido>= '2020-12-01' AND
+    data_pedido<='2020-12-31'
