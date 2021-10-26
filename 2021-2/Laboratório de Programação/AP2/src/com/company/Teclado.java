@@ -1,62 +1,121 @@
 package com.company;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Teclado {
+
     //ler e retornar valor
+
     public String lerString(){
-        System.out.println("Digite uma string:");
+        System.out.println("\nDigite uma string:");
         Scanner ler = new Scanner(System.in);
-        return ler.next().toString();
+        String str = ler.next();
+        System.out.println("O dado lido foi: " + str);
+        return str;
     }
     public String lerString(String mensagem){
         System.out.println(mensagem);
         Scanner ler = new Scanner(System.in);
-        return ler.next().toString();
+        String str = ler.next();
+        System.out.println("O dado lido foi: " + str + "\n");
+        return str;
+    }
+    public String stringJOP(){
+        String strJop = null;
+        strJop = JOptionPane.showInputDialog("Digite uma String:");
+        JOptionPane.showMessageDialog(null, "O dado lido foi: " + strJop);
+        return strJop;
     }
 
     public float lerFloat(){
         System.out.println("Digite um float:");
         Scanner ler = new Scanner(System.in);
-        return ler.nextFloat();
+        float numFloat = ler.nextFloat();
+        System.out.println("O dado lido foi: " + numFloat);
+        return numFloat;
     }
     public float lerFloat(String mensagem){
         System.out.println(mensagem);
         Scanner ler = new Scanner(System.in);
-        return ler.nextFloat();
+        float numFloat = ler.nextFloat();
+        System.out.println("O dado lido foi: " + numFloat + "\n");
+        return numFloat;
+    }
+    public float floatJOP(){
+        float floatJop;
+        floatJop = Float.parseFloat(JOptionPane.showInputDialog("Digite um float:"));
+        JOptionPane.showMessageDialog(null, "O dado lido foi: " + floatJop);
+        return floatJop;
     }
 
     public double lerDouble(){
         System.out.println("Digite um double:");
         Scanner ler = new Scanner(System.in);
-        return ler.nextDouble();
+        double numDouble = ler.nextDouble();
+        System.out.println("O dado lido foi: " + numDouble);
+        return numDouble;
     }
     public double lerDouble(String mensagem){
         System.out.println(mensagem);
         Scanner ler = new Scanner(System.in);
-        return ler.nextDouble();
+        double numDouble = ler.nextDouble();
+        System.out.println("O dado lido foi: " + numDouble + "\n");
+        return numDouble;
+    }
+    public double doubleJOP(){
+        double doubleJop;
+        doubleJop = Double.parseDouble(JOptionPane.showInputDialog("Digite um double:"));
+        JOptionPane.showMessageDialog(null, "O dado lido foi: " + doubleJop);
+        return doubleJop;
     }
 
     public int lerInt(){
         System.out.println("Digite um inteiro:");
         Scanner ler = new Scanner(System.in);
-        return ler.nextInt();
+        int numInt = ler.nextInt();
+        System.out.println("O dado lido foi: " + numInt);
+        return numInt;
     }
     public int lerInt(String mensagem){
         System.out.println(mensagem);
         Scanner ler = new Scanner(System.in);
-        return ler.nextInt();
+        int numInt = ler.nextInt();
+        System.out.println("O dado lido foi: " + numInt + "\n");
+        return numInt;
+    }
+    public int intJOP(){
+        int intJop;
+        intJop = Integer.parseInt(JOptionPane.showInputDialog("Digite um inteiro:"));
+        JOptionPane.showMessageDialog(null, "O dado lido foi: " + intJop);
+        return intJop;
     }
 
     public char lerChar(){
         System.out.println("Digite um Char:");
         Scanner ler = new Scanner(System.in);
-        return ler.next().charAt(0);
+        char caracterChar = ler.next().charAt(0);
+        System.out.println("O dado lido foi: " + caracterChar);
+        return caracterChar;
     }
     public char lerChar(String mensagem){
         System.out.println(mensagem);
         Scanner ler = new Scanner(System.in);
-        return ler.next().charAt(0);
+        char caracterChar = ler.next().charAt(0);
+        System.out.println("O dado lido foi: " + caracterChar + "\n");
+        return caracterChar;
+    }
+    public String charJOP(){
+        String charJop = null;
+        charJop = JOptionPane.showInputDialog("Digite um char:");
+
+        if(charJop.length() != 1) {
+            JOptionPane.showMessageDialog(null, "O Valor digitado não é um char.");
+        }else {
+            JOptionPane.showMessageDialog(null, "O dado lido foi: " + charJop);
+        }
+
+        return charJop;
     }
 
     //Verificar se o valor digitado é um e-mail
@@ -65,15 +124,15 @@ public class Teclado {
         String email;
 
         System.out.println("Digite um e-mail:");
-        email = ler.next().toString();
+        email = ler.next();
 
         if(email.contains("@") && email.contains(".")){
-            System.out.println("E-mail validado. Seu e-mail é: " + email);
+            System.out.println("E-mail validado. Seu e-mail é: " + email + "\n");
         }
         else {
-            System.out.println("Null");
+            System.out.println("Null. E-mail inválido.\n");
         }
-        return ("Próxima fase");
+        return ("O e-mail é: " + email);
     }
 
     //Validar se o valor digitado é um número de telefone
@@ -84,15 +143,14 @@ public class Teclado {
 
         if(telefone.length() == 13){
             if(telefone.charAt(3)=='-'){
-                System.out.println("Telefone validado. O telefone é: " + telefone);
+                System.out.println("Telefone validado. O telefone é: " + telefone + "\n");
                 return true;
-            }
-           else{
-                System.out.println("Telefone não validado.");
+            } else{
+                System.out.println("Null. Telefone não validado.\n");
                 return false;
-            }
+           }
         }else{
-            System.out.println("Telefone não validado.");
+            System.out.println("Null. Telefone não validado.\n");
             return false;
         }
     }
@@ -105,18 +163,18 @@ public class Teclado {
 
         if(data.length() == 10){
             if(data.charAt(2)=='/' && data.charAt(5)=='/'){
-                System.out.println("Data validada. A data é: " + data);
+                System.out.println("Data validada. A data é: " + data + "\n");
                 return true;
             }
-            if(data.charAt(2)=='-' && data.charAt(5)=='-'){
-                System.out.println("Data validada.");
+            else if(data.charAt(2)=='-' && data.charAt(5)=='-'){
+                System.out.println("Data validada.\n");
                 return true;
             }else{
-                System.out.println("Data não validada.");
+                System.out.println("Null. Data não validada.\n");
                 return false;
             }
         }else{
-            System.out.println("Data não validada.");
+            System.out.println("Null. Data não validada.\n");
             return false;
         }
     }
@@ -132,16 +190,16 @@ public class Teclado {
                 int dia = Integer.parseInt(data.substring(0,2));
                 int mes = Integer.parseInt(data.substring(3,5));
                 int ano = Integer.parseInt(data.substring(6,10));
-                System.out.println("O novo formato da data é: " + mes + "/" + dia + "/" + ano);
+                System.out.println("O novo formato da data é: " + mes + "/" + dia + "/" + ano + "\n");
             }
             if(data.charAt(2)=='-' && data.charAt(5)=='-'){
                 int dia = Integer.parseInt(data.substring(0,2));
                 int mes = Integer.parseInt(data.substring(3,5));
                 int ano = Integer.parseInt(data.substring(6,10));
-                System.out.println("O novo formato da data é: " + mes + "/" + dia + "/" + ano);
+                System.out.println("O novo formato da data é: " + mes + "/" + dia + "/" + ano + "\n");
             }
         }else{
-            System.out.println("Data inválida, não foi possível alterar o formato da data.");
+            System.out.println("Data inválida, não foi possível alterar o formato da data.\n");
         }
         return 0;
     }
