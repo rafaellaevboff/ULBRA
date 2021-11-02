@@ -21,12 +21,12 @@
 ## CRUD CLIENTE
 1. SENDO: Dalila, a pessoa que oferece os serviços de classificados online/anúncios online
 
-2. POSSO: adicionar, alterar e excluir dados de cada cliente que contratou seu serviço
+2. POSSO: consultar, adicionar, alterar e excluir dados de cada cliente que contratou seu serviço
 
 3. PARA QUE: mantenha sua lista de clientes sempre atualizada a fim de apresentar os dados necessários do anunciante nos anuncios para que os compradores possam entrar em contato e para Dalila também ter o controle dos clientes a quem prestou serviço
 
-4. CRITÉRIOS DE ACEITE: 
+4. CRITÉRIOS DE ACEITE:
 - Nenhum cliente pode ser apagado do Banco de Dados;
-- O cliente não pode ter nenhum dos seguintes dados apagados: nome completo, idade e telefone para contato.
+- O cliente não pode ter nenhum dos seguintes dados apagados: id, nome completo e telefone para contato.
 
 5. OBSERVAÇÕES: os dados do anunciante que aparecem no anúncio são: nome do anunciante, dois números para entrar em contato e caso seja preciso uma observação de até 5 palavras sobre os números para contato
