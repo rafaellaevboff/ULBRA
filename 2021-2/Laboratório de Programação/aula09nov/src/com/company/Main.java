@@ -62,8 +62,8 @@ public class Main {
                 }
 
                 case 5: {
-                    System.out.println("Digite o nome do livro a ser apagado");
-                    String nome=tc.next();
+                    System.out.println("Digite o nome do livro a ser encontrado");
+                    String nome = tc.next();
                     Livro buscar= new Livro(nome);
                     if (biblioteca.contains(buscar)){
                         System.out.println("Encontrei na posiçao:"+biblioteca.indexOf(buscar));
@@ -77,11 +77,11 @@ public class Main {
                 }
                 case 7:{
                     System.out.println("Digite o nome do livro que deseja atualizar");
-                    String nome=tc.next();
-                    Livro busca= new Livro(nome);
+                    String nome = tc.next();
+                    Livro busca = new Livro(nome);
                     if(biblioteca.contains(busca)){
-                        int i= biblioteca.indexOf(busca);
-                        Livro newLivro=new Livro();
+                        int i = biblioteca.indexOf(busca);
+                        Livro newLivro = new Livro();
                         newLivro.lerDados();
                         biblioteca.set(i,newLivro);
                     }

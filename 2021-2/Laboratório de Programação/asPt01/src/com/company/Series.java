@@ -13,7 +13,7 @@ public class Series {
     Scanner tc = new Scanner(System.in);
 
     public void lerDados() {
-        System.out.println("\nInforme o titulo da série:");
+        System.out.println("\nInforme o título da série:");
         titulo = tc.nextLine();
 
         System.out.println("Informe a sinopse da série:");
@@ -59,11 +59,6 @@ public class Series {
         System.out.println("Quantidade de temporadas: " + this.qtdTemporadas);
         System.out.println("Número total de episódios: " + this.numeroEpTotal);
         System.out.println("Série visualizada? " + this.visualizadaSN + "\n");
-    }
-
-    public Series(int temporadas) {
-        this.qtdTemporadas = temporadas;
-        System.out.println("Criando o objeto....");
     }
 
     public Series(String nome) {
