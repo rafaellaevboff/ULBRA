@@ -15,9 +15,10 @@ public class Main {
         do {
             System.out.println("\nDigite 1 para ADICIONAR uma série e seus dados;");
             System.out.println("Digite 2 para LISTAR as séries vistas e não vistas;");
-            System.out.println("Digite 3 para REMOVER uma série por seu index;");
-            System.out.println("Digite 4 para ENCONTRAR uma série por seu nome;");
-            System.out.println("Digite 5 para MOSTRAR a quantidade total de Séries no catálogo;");
+            System.out.println("Digite 3 para REMOVER uma série por seu título;");
+            System.out.println("Digite 4 para REMOVER uma série por seu index;");
+            System.out.println("Digite 5 para ENCONTRAR uma série por seu nome;");
+            System.out.println("Digite 6 para MOSTRAR a quantidade total de Séries no catálogo;");
             System.out.println("Digite 0 para SAIR do programa.");
 
             try{
@@ -47,7 +48,6 @@ public class Main {
                 }
 
                 case 3: {
-                    /*
                     System.out.println("Digite o nome da série que deseja apagar:");
                     String nome = tc.next();
                     Series apagar = new Series(nome);
@@ -58,8 +58,9 @@ public class Main {
                         System.out.println("Não encontrei a série no catálogo.");
                     }
                     break;
-                    */
+                }
 
+                case 4:{
                     System.out.println("\nDigite a posição a ser apagada:");
                     int posicao = tc.nextInt();
                     Series apagar = catalogo.remove(posicao);
@@ -71,10 +72,10 @@ public class Main {
                     break;
                 }
 
-                case 4: {
+                case 5: {
                     System.out.println("\nDigite o nome da série a ser buscada: ");
-                    String nome = tc.nextLine();
-                    nome.split(" ").toString();
+                    String nome = tc.next();
+                    //nome.split(" ").toString();
 
                     Series buscar = new Series(nome);
 
@@ -87,7 +88,7 @@ public class Main {
                     break;
                 }
 
-                case 5: {
+                case 6: {
                     System.out.println("\nTotal de séries cadastradas: " + catalogo.size());
                 }
 
