@@ -54,7 +54,6 @@ public class Series {
     }
 
     public void exibirDados() {
-        System.out.println("\nNome da série: " + this.titulo);
         System.out.println("Sinopse: " + this.sinopse);
         System.out.println("Quantidade de temporadas: " + this.qtdTemporadas);
         System.out.println("Número total de episódios: " + this.numeroEpTotal);

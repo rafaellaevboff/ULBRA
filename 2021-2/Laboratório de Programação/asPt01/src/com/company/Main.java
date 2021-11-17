@@ -36,14 +36,19 @@ public class Main {
                 }
 
                 case 2: {
-                    System.out.println("\nSéries visualizadas:");
-                    for (int i = 0; i < catalogo.size(); i++) {
-                        catalogo.get(i).serieVisualizada();
+                    if(catalogo.isEmpty()){
+                        System.out.println("Não há nenhuma série cadastrada no momento!");
+                    }else{
+                        System.out.println("\nSéries visualizadas:");
+                        for (int i = 0; i < catalogo.size(); i++) {
+                            catalogo.get(i).serieVisualizada();
+                        }
+                        System.out.println("\nSéries não visualizadas:");
+                        for (int i = 0; i < catalogo.size(); i++) {
+                            catalogo.get(i).serieNaoVisualizada();
+                        }
                     }
-                    System.out.println("\nSéries não visualizadas:");
-                    for (int i = 0; i < catalogo.size(); i++) {
-                        catalogo.get(i).serieNaoVisualizada();
-                    }
+
                     break;
                 }
 
@@ -73,17 +78,21 @@ public class Main {
                 }
 
                 case 5: {
-                    System.out.println("\nDigite o nome da série a ser buscada: ");
-                    String nome = tc.next();
-                    //nome.split(" ").toString();
+                    if(catalogo.isEmpty()){
+                        System.out.println("Não há nenhuma série cadastrada no momento!");
+                    }else {
+                        System.out.println("\nDigite o nome da série a ser buscada: ");
+                        String nome = tc.next();
+                        //nome.split(" ").toString();
 
-                    Series buscar = new Series(nome);
+                        Series buscar = new Series(nome);
 
-                    if (catalogo.contains(buscar)) {
-                        System.out.println("\nEncontrei a série " + nome + " na posiçao:" + catalogo.indexOf(buscar));
-                        catalogo.get(catalogo.indexOf(buscar)).exibirDados();
-                    } else {
-                        System.out.println("\nDesculpe, não encontrei a série desejada.");
+                        if (catalogo.contains(buscar)) {
+                            System.out.println("\nEncontrei a série " + nome + " na posiçao:" + catalogo.indexOf(buscar));
+                            catalogo.get(catalogo.indexOf(buscar)).exibirDados();
+                        } else {
+                            System.out.println("\nDesculpe, não encontrei a série desejada.");
+                        }
                     }
                     break;
                 }
@@ -94,10 +103,5 @@ public class Main {
 
             }
         }while (op!=0);
-
-        System.out.println("\nSéries no catálogo: ");
-        for (int i = 0; i < catalogo.size(); i++){
-            catalogo.get(i).exibirDados();
-        }
     }
 }
