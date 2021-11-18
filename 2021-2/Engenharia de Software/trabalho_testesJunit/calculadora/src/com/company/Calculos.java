@@ -9,39 +9,44 @@ public class Calculos {
     public void boasVindas(){
         System.out.println("Qual seu nome?");
         String nome = ler.nextLine();
-        System.out.println("Seja bem vindo(a) " + nome);
+        System.out.println("Seja bem vindo(a) " + nome + "!");
     }
 
-    public void calcular() {
-        System.out.println("\nDigite qual operação deseja fazer:\n1 = soma(+)\n2 = subtração(-)\n3 = multiplicação\n4 = divisão(/)");
-        int operacao = ler.nextInt();
+    double c;
+    public void somar(){
         System.out.println("\nDigite o valor do primeiro número:");
         double a = ler.nextDouble();
         System.out.println("Digite o valor do segundo número:");
         double b = ler.nextDouble();
+        c = a + b;
+        System.out.println("\nO resultado do cálculo foi: " + c);
+    }
 
-        double c;
-        switch (operacao) {
-            case 1:{
-                c = a + b;
-                System.out.println("\nO resultado do cálculo foi: " + c);
-                break;
-        }
-            case 2: {
-                c = a - b;
-                System.out.println("\nO resultado do cálculo foi: " + c);
-                break;
-            }
-            case 3: {
-                c = a * b;
-                System.out.println("\nO resultado do cálculo foi: " + c);
-                break;
-            }
-            case 4: {
-                c = a / b;
-                System.out.println("\nO resultado do cálculo foi: " + c);
-                break;
-            }
-        }
+    public void subtrair(){
+        System.out.println("\nDigite o valor do primeiro número:");
+        double a = ler.nextDouble();
+        System.out.println("Digite o valor do segundo número:");
+        double b = ler.nextDouble();
+        c = a - b;
+        System.out.println("\nO resultado do cálculo foi: " + c);
+
+    }
+
+    public void multiplicar(){
+        System.out.println("\nDigite o valor do primeiro número:");
+        double a = ler.nextDouble();
+        System.out.println("Digite o valor do segundo número:");
+        double b = ler.nextDouble();
+        c = a * b;
+        System.out.println("\nO resultado do cálculo foi: " + c);
+    }
+
+    public void dividir(){
+        System.out.println("\nDigite o valor do primeiro número:");
+        double a = ler.nextDouble();
+        System.out.println("Digite o valor do segundo número:");
+        double b = ler.nextDouble();
+        c = a / b;
+        System.out.println("\nO resultado do cálculo foi: " + c);
     }
 }
