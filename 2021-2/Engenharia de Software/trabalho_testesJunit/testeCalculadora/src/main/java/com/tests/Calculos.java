@@ -21,6 +21,9 @@ public class Calculos {
         c = a + b;
         System.out.println("\nO resultado do cálculo foi: " + c);
     }
+    public int som2(int a, int b){
+        return a + b;
+    }
 
     public void subtrair(){
         System.out.println("\nDigite o valor do primeiro número:");
@@ -29,7 +32,9 @@ public class Calculos {
         double b = ler.nextDouble();
         c = a - b;
         System.out.println("\nO resultado do cálculo foi: " + c);
-
+    }
+    public int sub2(int a, int b){
+        return a - b;
     }
 
     public void multiplicar(){
@@ -40,6 +45,9 @@ public class Calculos {
         c = a * b;
         System.out.println("\nO resultado do cálculo foi: " + c);
     }
+    public int mult2(int a, int b){
+        return a * b;
+    }
 
     public void dividir(){
         System.out.println("\nDigite o valor do primeiro número:");
@@ -48,5 +56,8 @@ public class Calculos {
         double b = ler.nextDouble();
         c = a / b;
         System.out.println("\nO resultado do cálculo foi: " + c);
+    }
+    public int div2(int a, int b){
+        return a / b;
     }
 }
