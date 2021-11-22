@@ -10,24 +10,28 @@ public class SignTest {
     public void testReturnSom2(){
         Calculos cal = new Calculos();
         assertEquals(15, cal.som2(10,5));
+        assertEquals(15, cal.som2(10,15));
     }
 
     @Test
     public void testReturnSub2(){
         Calculos cal = new Calculos();
         assertEquals(20, cal.sub2(10,5));
+        assertEquals(15, cal.sub2(10,5));
     }
 
     @Test
     public void testReturnMult2(){
         Calculos cal = new Calculos();
         assertEquals(50, cal.mult2(10,5));
+        assertEquals(15, cal.mult2(10,5));
     }
 
     @Test
     public void testReturnDiv2(){
         Calculos cal = new Calculos();
-        assertEquals(8, cal.sub2(10,5));
+        assertEquals(8, cal.div2(10,5));
+        assertEquals(15, cal.div2(10,5));
     }
 
 }

@@ -1,7 +1,5 @@
 package com.tests;
 
-import com.tests.Calculos;
-
 import java.util.Scanner;
 
 public class Main {

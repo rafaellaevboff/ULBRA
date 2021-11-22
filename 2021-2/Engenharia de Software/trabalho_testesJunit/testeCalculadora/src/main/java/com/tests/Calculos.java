@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculos {
     Scanner ler = new Scanner(System.in);
-    String nome;
+    double c;
 
     public void boasVindas(){
         System.out.println("Qual seu nome?");
@@ -12,7 +12,6 @@ public class Calculos {
         System.out.println("Seja bem vindo(a) " + nome + "!");
     }
 
-    double c;
     public void somar(){
         System.out.println("\nDigite o valor do primeiro número:");
         double a = ler.nextDouble();

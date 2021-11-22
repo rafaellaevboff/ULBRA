@@ -15,7 +15,7 @@ values
 
 -- EXERCÍCIOS:
 -- 1 - todos os pacientes que o médico Rafael tem pra atender hoje;
--- 2 - todos os pacientes que temos para atender hoje;
+-- 2 - toidos os pacientes que temos para atender hoje;
 -- 3 - valor total das consultas do mês de junho 2021;
 -- 4- todos os pacientes da Médica Júlia e de qual cidade eles pertencem que tem consulta no mês de dezembro de 2021;
 -- 5 - Todos os médicos que já atenderam algum paciente da cidade de Torres;
