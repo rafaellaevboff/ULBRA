@@ -475,7 +475,6 @@ FROM 	    notas n
 where 	    c.nome like '%Ma%'
 GROUP BY    c.nome, p.descricao, ni.quantidade
 --Maria não rrealizou nenhuma compra, por isso não irá aparecer na tabela criada.
---Maria não rrealizou nenhuma compra, por isso não irá aparecer na tabela criada.
 
 --3 - Na consulta anterior, acrescente saber qual foi o produto que mais foi comprado.
 SELECT	    p.descricao, c.nome as cliente, MAX(ni.quantidade) as quantidade_mais_comprado
