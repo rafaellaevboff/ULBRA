@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class SignTest {
+public class TesteCalculadora {
     Calculos cal = new Calculos();
 
     //SOMA
@@ -45,13 +45,15 @@ public class SignTest {
     //DIVISÃO
     @Test
     public void testReturnDiv1(){
-        Calculos cal = new Calculos();
         assertEquals(8, cal.div2(16,2));
     }
     @Test
     public void testReturnDiv2(){
-        Calculos cal = new Calculos();
         assertEquals(15, cal.div2(10,5));
     }
 
+    @Test
+    public void verPotencia2el2() {
+        assertEquals(4, cal.potencia(2,2));
+    }
 }

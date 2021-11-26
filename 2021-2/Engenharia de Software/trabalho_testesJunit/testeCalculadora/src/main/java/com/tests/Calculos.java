@@ -21,7 +21,7 @@ public class Calculos {
         System.out.println("\nO resultado do cálculo foi: " + c);
     }
     public int som2(int a, int b){
-        return a + b;
+        return (a + b)+1;
     }
 
     public void subtrair(){
@@ -58,5 +58,9 @@ public class Calculos {
     }
     public int div2(int a, int b){
         return a / b;
+    }
+
+    public int potencia(double base, double exp) {
+        return (int)Math.pow(base, exp * 2);
     }
 }
