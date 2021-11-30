@@ -35,7 +35,7 @@ create table notas_itens(
 			on update cascade
 );
 
-
+--POPULANDO A BANCO DE DADOS:
 INSERT INTO
   clientes (nome)
 VALUES
@@ -452,6 +452,8 @@ VALUES
   (1, 73, 388.51, 127.00),
   (67, 54, 856.48, 349.00);
 
+--EXERCÍCIOS:
+
 --1-  FUS que calcule a média de valor unitário dos produtos vendidos num mês de sua escolha.
 SELECT	  AVG(ni.valor_unit) as media_de_precos, P.descricao as produto, p.id as id_produto
 FROM 	    notas_itens ni 
@@ -463,8 +465,17 @@ where 	    n.data_emissao between '2017-12-01' and '2021-12-31'
 GROUP BY    p.descricao, p.id
 ORDER BY    media_de_precos asc
 
+--CORREÇÃO:
+SELECT    ni.id_produto, avg(valor_unit) as media_de_precos
+FROM      notas_itens ni
+            INNER JOIN notas n
+              ON n.id = ni.id_nota
+where     data_emissao >= '2017-01-01' AND data_emissao <= '2017-01-31'
+GROUP BY  id_produto
+ORDER BY  media_de_precos desc
+
 --2 - FUS que mostre os a quantidade de produtos que foram comprados pelos clientes cujo o nome começa com Maria. Pode mostrar o nome do produto, o nome da Maria (similar) e a quantidade comprada. Similar porque podem ter várias Marias.
-SELECT	    p.descricao as produto, c.nome as cliente, ni.quantidade as quantidade_produtos
+SELECT	    p.descricao as produto, c.nome as cliente, SUM(ni.quantidade) as quantidade_produtos
 FROM 	    notas n
                 JOIN clientes c
                     on n.id_cliente = c.id
@@ -472,12 +483,14 @@ FROM 	    notas n
                     on ni.id_nota = n.id
                 JOIN produtos p
                     on ni.id_produto = p.id
-where 	    c.nome like '%Ma%'
-GROUP BY    c.nome, p.descricao, ni.quantidade
---Maria não rrealizou nenhuma compra, por isso não irá aparecer na tabela criada.
+where 	    c.nome ilike 'maria%'  --filtra dados que vem do from
+GROUP BY    p.descricao, c.nome   --group by le dps do where, se tiver, senão é dps do from
+HAVING      SUM(ni.quantidade) >= 700  --filtrar dados agrupados
+ORDER BY    c.nome ASC
+-- ilike só funciona no postgrees, ele não diferencia letras maiusculas ou minusculas. ex: vai pesquisar maria e Maria e MARIA
 
 --3 - Na consulta anterior, acrescente saber qual foi o produto que mais foi comprado.
-SELECT	    p.descricao, c.nome as cliente, MAX(ni.quantidade) as quantidade_mais_comprado
+SELECT	    p.descricao, c.nome as cliente, SUM(ni.quantidade) as quantidade_mais_comprado
 FROM 	    notas n
                 JOIN clientes c
                     on n.id_cliente = c.id
@@ -485,14 +498,14 @@ FROM 	    notas n
                     on ni.id_nota = n.id
                 JOIN produtos p
                     on ni.id_produto = p.id
-where 	    c.nome like '%Ma%'
+where 	    c.nome ilike 'maria%'
 GROUP BY    c.nome, p.descricao, ni.quantidade
-order BY	ni.quantidade desc
-limit 		1
+order BY    quantidade_mais_comprado desc
+limit 		  1
 
 --4 - qual o produto mais caro quem um cliente comprou num determinado período (sua escolha).
 SELECT	    c.nome as cliente, p.descricao as produto_mais_caro, MAX(p.valor_unit) as valor_produto
-FROM 	    notas n
+FROM 	      notas n
                 JOIN clientes c
                     on n.id_cliente = c.id
                 JOIN notas_itens ni
@@ -501,5 +514,11 @@ FROM 	    notas n
                     on ni.id_produto = p.id
 where 	    n.data_emissao between '2010-01-01' and '2021-12-31'
 GROUP BY    c.nome, p.descricao, ni.valor_unit
-order BY	ni.valor_unit desc
-limit 		1
+order BY	  valor_produto desc
+limit 		  1
+
+--union junta tuplas
+--join junta tabelas
+
+--having filtra dados agrupados
+--where filtra dados do from
