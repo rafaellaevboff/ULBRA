@@ -20,9 +20,14 @@ public class Main {
             System.out.println("Cheia");
         }
 
+        /*canil.exibir();
+        System.out.println("remover");
+        canil.remover(2);*/
+
+        //REMOVER POR NOME:
         canil.exibir();
-        canil.removerInicio();
-        System.out.println("REMOVER");
+        canil.removerNome("Pirata");
+        System.out.println("\nApós excluir:");
         canil.exibir();
     }
 }

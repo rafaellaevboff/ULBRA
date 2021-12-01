@@ -1,5 +1,6 @@
 package com.arrayList;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class LivrosAL {
@@ -33,11 +34,27 @@ public class LivrosAL {
         System.out.println(this.qtdPag);
     }
 
+    public LivrosAL(String nome) {
+        this.titulo = nome;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        LivrosAL livros = (LivrosAL) o;
+        return Objects.equals(titulo, livros.titulo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(titulo);
+    }
+
     public LivrosAL(int paginas){
         this.qtdPag = paginas;
         System.out.println("Criando o objeto...");
     }
     public LivrosAL(){
-
     }
 }

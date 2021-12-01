@@ -2,6 +2,8 @@ package com.arrayList;
 
 import com.construtures.Livros;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,6 +18,18 @@ public class Main {
         l2.exibirDados();
 
         //vetor
-        LivrosAL livros[] = new LivrosAL[10];
+        //LivrosAL livros[] = new LivrosAL[10];
+
+        //Array List
+        ArrayList<LivrosAL> biblioteca = new ArrayList<LivrosAL>();
+
+        LivrosAL l3 = new LivrosAL();
+        l3.lerDados();
+        l3.exibirDados();
+        if(l2.equals(l3)){
+            System.out.println("Livros iguais");
+        }else{
+            System.out.println("Livros diferentes");
+        }
     }
 }

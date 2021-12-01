@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Lista {
     public Cao primeiro;
     public int tam;
@@ -62,20 +60,6 @@ public class Lista {
             tam++;
             return true;
         }
-
-    }
-
-    public boolean addFim2(Cao caozinho){
-        if(this.primeiro==null){
-            return add(caozinho);
-        }else{
-            Cao aux=ultimo;
-            aux.proximo=caozinho;
-            this.ultimo=caozinho;
-            tam++;
-            return true;
-        }
-
     }
 
     public void exibir(){
@@ -91,7 +75,7 @@ public class Lista {
         }
     }
 
-    public boolean removerInicio(){
+    public boolean remover(){
         if (!isEmpty()){
             Cao p =this.primeiro;
             this.primeiro=p.proximo;
@@ -104,4 +88,62 @@ public class Lista {
         }
     }
 
+    //remover em uma posição
+    public boolean remover(int x){
+        if(x == 0){
+            return this.remover();
+        }else if(x > tam){
+            return false;
+        }else if(x==tam-1){
+            return this.removerFim();
+        }else{
+            int count = 0;
+            Cao elemento = this.primeiro;
+            Cao anterior = this.primeiro;
+                while(x==count){
+                    count ++;
+                    anterior = elemento;
+                    elemento = elemento.proximo;
+                }
+                anterior.proximo = elemento.proximo;
+                this.tam--;
+                return true;
+        }
+    }
+
+    public boolean removerFim(){
+        if(this.primeiro == null){
+            System.out.println("lista vazia");
+            return false;
+        }else {
+            Cao aux = primeiro;
+            Cao penultimo = primeiro;
+            while (aux.proximo != null) {
+                penultimo = aux;
+                aux = aux.proximo;
+            }
+
+            penultimo.proximo = null;
+            this.ultimo = penultimo;
+            this.tam--;
+            return true;
+        }
+    }
+
+    //REMOVER ELEMENTO POR NOME:
+    public boolean removerNome(String nomeP){
+        if(isEmpty()){
+            System.out.println("Lista vazia!");
+            return false;
+        }else {
+            Cao aux = primeiro;
+            int i = 0;
+
+            while (!aux.nome.equals(nomeP)) {
+                i++;
+                aux = aux.proximo;
+            }
+            return this.remover(i);
+        }
+    }
 }
