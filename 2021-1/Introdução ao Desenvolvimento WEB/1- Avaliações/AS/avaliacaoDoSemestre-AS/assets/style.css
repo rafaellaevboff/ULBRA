@@ -1,0 +1,65 @@
+header{
+    background-image: linear-gradient(rgb(255, 154, 230), rgb(131, 154, 245));
+    min-height: 90px;
+    color: #fff;
+}
+
+footer{
+    background-image: linear-gradient(rgb(131, 154, 245), rgb(255, 154, 230));
+    min-height: 150px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#horarioAtendimentoSobreLoja{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+a:link, a:visited{
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: rgb(255, 154, 230);
+}
+
+.formulario{
+    border-radius: 25px; 
+    width: 300px;
+    height: 40px;
+}
+
+.formularioMensagem{
+    border-radius: 25px;
+    width: 300px;
+    height: 150px;
+}
+
+.botaoEnviar{
+    background-image: radial-gradient(rgb(255, 154, 230), rgb(131, 154, 245));
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+}
+
+.roupas{
+    max-width: 150px;
+    margin-left: 70px;
+}
+
+.descricaoRoupas{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#logoLoja{
+    margin-left: 115px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100px;
+}

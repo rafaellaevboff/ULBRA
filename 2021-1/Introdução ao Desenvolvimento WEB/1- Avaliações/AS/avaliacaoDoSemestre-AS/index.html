@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- CSS e JS-->
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/script.js"></script>
+
+    <title>Loja de roupas</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 mt-4">
+                <h3 class="pl-5">Nome da loja</h3>
+            </div>
+            <nav class="col-md-6 mt-4 pl-5">
+                <a class="linksHeader" href="https://www.instagram.com/?hl=pt-br" target="_blanck">INSTAGRAM</a>
+                <a class="linksHeader" href="#" onclick="sobreLoja()">SOBRE A LOJA</a>
+                <a class="linksHeader" href="#" onclick="atendimento()">HORÁRIO DE ATENDIMENTO</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container-fluid">
+        <div class="row">
+            <article class="col-md-6 text-center">
+                <div class="container-fluid">
+                    <div class="col-md-12 pt-5">
+                        <h5 class="py-3">Preencha o formulário abaixo<br>para entrar em contato conosco</h5>
+                        <form name="cadastro">
+                            <input id="nome" name="nome" class="formulario mt-2" placeholder="Nome" type="text" required="required">
+                            <br>
+                            <input id="email" name="email" class="formulario mt-2" placeholder="E-mail" type="email" required="required">
+                            <br>
+                            <input id="assunto" name="assunto" class="formulario mt-2" placeholder="Assunto" type="text" required="required">
+                            <br>
+                            <textarea id="mensagem" name="mensagem" class="formularioMensagem mt-2 pt-3" placeholder="Mensagem" type="text" required="required"></textarea>
+                            <br>
+                            <button class="botaoEnviar mt-3 mb-5" onclick="return cadastroCliente()">Enviar</button>
+                        </form>
+                        <div class="pt-5">
+                            <h6>Qual seção de roupas você deseja acessar?</h6>
+                            <input placeholder="Feminina, Masculina ou Infantil" id="secao" class="formulario" type="text" required="required">
+                            <br>
+                            <button class="botaoEnviar my-3" onclick="secaoRoupas()">Procurar</button>
+                            <div>
+                            <label class="mb-5 mt-2" id="secaoDesejada"></label>
+                        </div>
+                    </div>
+                </div>
+                
+            </article>
+
+            <aside class="col-md-6">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 py-5">
+                            <label id="horarioAtendimentoSobreLoja"></label>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="roupas" src="./assets/IMG/roupasInverno.jpg" alt="">
+                        </div>
+                        <div class="col-md-6 descricaoRoupas">
+                            <h5>Roupas de Inverno</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 descricaoRoupas">
+                            <h5>Camisas de botão</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="roupas" src="./assets/IMG/camisetasBotao.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="roupas" src="./assets/IMG/jeans.jpg" alt="">
+                        </div>
+                        <div class="col-md-6 descricaoRoupas">
+                            <h5>Calças Jeans</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mb-5">
+                    <div class="row">
+                        <div class="col-md-6 descricaoRoupas">
+                            <h5>Camisetas</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="roupas" src="./assets/IMG/camisetas.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <img id="logoLoja" src="./assets/IMG/logoDaLoja.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="text-center mt-3 mb-5">
+                    <h4>Contato:</h4>
+                    <p>E-mail: xxxxxxxxxx@gmail.com</p>
+                    <p>Telefone: XX XXXXX-XXXX</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

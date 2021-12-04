@@ -1,40 +1,3 @@
-create table clientes(
-	id serial not null primary key,
-	nome varchar(100)
-);
-
-create table produtos(
-	id serial not null primary key,
-	descricao varchar(100), 
-	valor_unit decimal(12,2) default 0
-);
-
-create table notas(
-	id serial not null primary key,
-	data_emissao date,
-	id_cliente int not null,
-	foreign key(id_cliente)
-		references clientes(id)
-			on delete restrict
-			on update cascade
-);
-
-create table notas_itens(
-	id serial not null primary key,
-	id_nota int not null,
-	id_produto int not null,
-	quantidade decimal(12,2)  default 0,
-	valor_unit decimal(12,2) default 0, 
-	foreign key(id_nota)
-		references notas(id)
-			on delete cascade
-			on update cascade,
-	foreign key(id_produto)
-		references produtos(id)
-			on delete restrict
-			on update cascade
-);
-
 --POPULANDO A BANCO DE DADOS:
 INSERT INTO
   clientes (nome)
@@ -452,76 +415,52 @@ VALUES
   (1, 73, 388.51, 127.00),
   (67, 54, 856.48, 349.00);
 
+create table clientes(
+	id serial not null primary key,
+	nome varchar(100)
+);
 
---EXERCÍCIOS:
+create table produtos(
+	id serial not null primary key,
+	descricao varchar(100), 
+	valor_unit decimal(12,2) default 0
+);
 
---1-  FUS que calcule a média de valor unitário dos produtos vendidos num mês de sua escolha.
---CORREÇÃO:
-SELECT    ni.id_produto, avg(ni.valor_unit) as media_valor_unit
-FROM      notas_itens ni
-            INNER JOIN notas n
-              ON n.id = ni.id_nota
-where     n.data_emissao >= '2017-01-01' AND n.data_emissao <= '2017-01-31'
-GROUP BY  ni.id_produto
-ORDER BY  media_valor_unit desc
+create table notas(
+	id serial not null primary key,
+	data_emissao date,
+	id_cliente int not null,
+	foreign key(id_cliente)
+		references clientes(id)
+			on delete restrict
+			on update cascade
+);
 
---MEU CÓDIGO:
-SELECT	  AVG(ni.valor_unit) as media_de_precos, P.descricao as produto, p.id as id_produto
-FROM 	    notas_itens ni 
-                JOIN notas n 
-                    on ni.id_nota = n.id
-                JOIN produtos p
+create table notas_itens(
+	id serial not null primary key,
+	id_nota int not null,
+	id_produto int not null,
+	quantidade decimal(12,2)  default 0,
+	valor_unit decimal(12,2) default 0, 
+	foreign key(id_nota)
+		references notas(id)
+			on delete cascade
+			on update cascade,
+	foreign key(id_produto)
+		references produtos(id)
+			on delete restrict
+			on update cascade
+);
+
+
+--1-  FUS que calcule a média de valor unitário dos produtos vendidos num mês de sua escolha e mostre os 5 primeiros mais caros.
+SELECT      AVG(ni.valor_unit) as media_de_precos, p.descricao as produto
+from        notas n
+                inner join notas_itens ni
+                    on n.id = ni.id_nota
+                inner join produtos p 
                     on p.id = ni.id_produto
-where 	    n.data_emissao between '2017-12-01' and '2021-12-31'
-GROUP BY    p.descricao, p.id
-ORDER BY    media_de_precos asc
-
-
---2 - FUS que mostre os a quantidade de produtos que foram comprados pelos clientes cujo o nome começa com Maria. Pode mostrar o nome do produto, o nome da Maria (similar) e a quantidade comprada. Similar porque podem ter várias Marias.
-SELECT	    p.descricao as produto, c.nome as cliente, SUM(ni.quantidade) as quantidade_produtos
-FROM 	    notas n
-                JOIN clientes c
-                    on n.id_cliente = c.id
-                JOIN notas_itens ni
-                    on ni.id_nota = n.id
-                JOIN produtos p
-                    on ni.id_produto = p.id
-where 	    c.nome ilike 'maria%'  --filtra dados que vem do from
-GROUP BY    p.descricao, c.nome   --group by le dps do where, se tiver, senão é dps do from
-HAVING      SUM(ni.quantidade) >= 700  --filtrar dados agrupados
-ORDER BY    c.nome ASC
--- ilike só funciona no postgrees, ele não diferencia letras maiusculas ou minusculas. ex: vai pesquisar maria e Maria e MARIA
-
---3 - Na consulta anterior, acrescente saber qual foi o produto que mais foi comprado.
-SELECT	    p.descricao, c.nome as cliente, SUM(ni.quantidade) as quantidade_mais_comprado
-FROM 	    notas n
-                JOIN clientes c
-                    on n.id_cliente = c.id
-                JOIN notas_itens ni
-                    on ni.id_nota = n.id
-                JOIN produtos p
-                    on ni.id_produto = p.id
-where 	    c.nome ilike 'maria%'
-GROUP BY    c.nome, p.descricao, ni.quantidade
-order BY    quantidade_mais_comprado desc
-limit 		  1
-
---4 - qual o produto mais caro quem um cliente comprou num determinado período (sua escolha).
-SELECT	    c.nome as cliente, p.descricao as produto_mais_caro, MAX(p.valor_unit) as valor_produto
-FROM 	      notas n
-                JOIN clientes c
-                    on n.id_cliente = c.id
-                JOIN notas_itens ni
-                    on ni.id_nota = n.id
-                JOIN produtos p
-                    on ni.id_produto = p.id
-where 	    n.data_emissao between '2010-01-01' and '2021-12-31'
-GROUP BY    c.nome, p.descricao, ni.valor_unit
-order BY	  valor_produto desc
-limit 		  1
-
---union junta tuplas
---join junta tabelas
-
---having filtra dados agrupados
---where filtra dados do from
+where       n.data_emissao between '2020-05-11' and '2020-10-08'
+group by    p.descricao
+order by    media_de_precos desc
+limit       5
