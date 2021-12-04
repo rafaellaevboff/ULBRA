@@ -39,7 +39,6 @@ CREATE TABLE cursos(
     CONSTRAINT idcid_cursos_fk
         FOREIGN KEY (idcid)
             REFERENCES cidades(id)
-
 )
 
 CREATE TABLE disciplinas(
