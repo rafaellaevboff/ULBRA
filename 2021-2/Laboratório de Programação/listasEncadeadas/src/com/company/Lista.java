@@ -157,13 +157,13 @@ public class Lista {
             return false;
         } else {
             Cao aux = primeiro;
-            while (aux.proximo != null) {
-                aux = aux.proximo;
+            while (aux != null) {
                 p++;
                 if (aux.equals(c)) {
                     find = true;
                     break;
                 }
+                aux = aux.proximo;
             }
             if(find) {
                 return remover(p);
