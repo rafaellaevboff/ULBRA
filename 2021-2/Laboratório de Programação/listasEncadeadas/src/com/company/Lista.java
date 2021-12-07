@@ -55,8 +55,8 @@ public class Lista {
             while (aux.proximo!=null){
                 aux=aux.proximo;
             }
-            aux.proximo=caozinho;
-            this.ultimo=caozinho;
+            aux.proximo = caozinho;
+            this.ultimo = caozinho;
             tam++;
             return true;
         }
@@ -94,7 +94,7 @@ public class Lista {
             return this.remover();
         }else if(x >= tam){
             return false;
-        }else if(x==tam-1){
+        }else if(x == tam-1){
             return this.removerFim();
         }else{
             int count = 0;
@@ -149,7 +149,7 @@ public class Lista {
 
     //forma que o Ramon fez para remover por nome:
     public boolean remover(Cao c) {
-        //p é a posição do cachorriho pra eliminar, por isso ele inicia com -1, pois na contagem ele depois da primeira entrada ele vai comecar no laço com o 0 que é o primeiro index
+        //p é a posição do cachorrinho pra eliminar, por isso ele inicia com -1, pois na contagem ele depois da primeira entrada ele vai comecar no laço com o 0 que é o primeiro index
         int p = -1;
         boolean find = false;
         if (isEmpty()) {
