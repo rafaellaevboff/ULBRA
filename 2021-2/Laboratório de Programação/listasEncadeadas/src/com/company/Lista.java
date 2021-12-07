@@ -77,8 +77,8 @@ public class Lista {
 
     public boolean remover(){
         if (!isEmpty()){
-            Cao p =this.primeiro;
-            this.primeiro=p.proximo;
+            Cao p = this.primeiro;
+            this.primeiro = p.proximo;
             this.tam--;
             return true;
             //   this.primeiro=this.primeiro.proximo;
@@ -92,7 +92,7 @@ public class Lista {
     public boolean remover(int x){
         if(x == 0){
             return this.remover();
-        }else if(x > tam){
+        }else if(x >= tam){
             return false;
         }else if(x==tam-1){
             return this.removerFim();
@@ -100,7 +100,7 @@ public class Lista {
             int count = 0;
             Cao elemento = this.primeiro;
             Cao anterior = this.primeiro;
-                while(x==count){
+                while(x > count){
                     count ++;
                     anterior = elemento;
                     elemento = elemento.proximo;
@@ -144,6 +144,33 @@ public class Lista {
                 aux = aux.proximo;
             }
             return this.remover(i);
+        }
+    }
+
+    //forma que o Ramon fez para remover por nome:
+    public boolean remover(Cao c) {
+        //p é a posição do cachorriho pra eliminar, por isso ele inicia com -1, pois na contagem ele depois da primeira entrada ele vai comecar no laço com o 0 que é o primeiro index
+        int p = -1;
+        boolean find = false;
+        if (isEmpty()) {
+            System.out.println("Lista vazia!");
+            return false;
+        } else {
+            Cao aux = primeiro;
+            while (aux.proximo != null) {
+                aux = aux.proximo;
+                p++;
+                if (aux.equals(c)) {
+                    find = true;
+                    break;
+                }
+            }
+            if(find) {
+                return remover(p);
+            }else{
+                System.out.println("Erro ao encontyrar cão");
+                return false;
+            }
         }
     }
 }
