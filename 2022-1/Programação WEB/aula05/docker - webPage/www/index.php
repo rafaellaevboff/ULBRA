@@ -2,7 +2,7 @@
 
 //vai ser um arquivo de roteamento
 //SEMPRE deixar ele dentro do www, sem estar em nenhuma pasta
-
+if(!isset($_GET["controller"]))
 
 
 if(isset($_GET["controller"])){
@@ -36,3 +36,5 @@ if(isset($_GET["controller"])){
     $site = new SiteController();
     $site -> home();
 }
+
+?>
