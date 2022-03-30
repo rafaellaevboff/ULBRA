@@ -18,7 +18,7 @@
     <!--JS-->
     <script src="./assets/js/script.js"></script>
     
-    <title>PHP e Docker</title>
+    <title>Aula01</title>
 </head>
 <body>
     <header class="p-5 bg-dark text-light text-center rounded">
@@ -30,17 +30,22 @@
         <div class="row">
             <ul class="nav flex-column col-md-3 py-5" id="nav">
                 <li class="nav-item">
-                <a class="nav-link" href="?page=home">Home</a>
+                <a class="nav-link" href="?controller=site&action=home">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="?page=about">Sobre</a>
+                <a class="nav-link" href="?controller=site&action=about">Sobre</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="?page=products">Produtos</a>
+                <a class="nav-link" href="?controller=site&action=products">Produtos</a>
                 </li>
                 <li class="nav-item">
-                <a id="about" class="nav-link" href="?page=contact">Contato</a>
+                <a id="about" class="nav-link" href="?controller=site&action=contact">Contato</a>
                 </li>
+                <h3>Clientes</h3>
+                <li class="nav-item">
+                <a id="about" class="nav-link" href="?controller=client&action=insertClient">Cadastro</a>
+                </li>
+
             </ul>
 
             <article class="col-md-9 py-5">

@@ -1,18 +1,11 @@
 version: '3'
-
 services: 
   servidor-web:
     image: httpd:2.4
     container_name: "servidor-web"
     ports:
-      - 8081:80
+      - 8080:80
     volumes:
-      - ./project:/usr/local/apache2/htdocs 
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    ports:
-        - 8002:80
-    environment:
-        MYSQL_ROOT_PASSWORD: test 
-    networks:
-        - default
+      - ./www:/usr/local/apache2/htdocs
+
+    
