@@ -31,12 +31,11 @@ namespace Mercado
             );
 
             pedidoJoao.Produtos.Add(produto3);
-            pedidoJoao.Produtos.FormasPagamentos.Add(fDinheiro);
-            pedidoJoao.Produtos.FormasPagamentos.Add(fCartao);
+            pedidoJoao.FormasPagamentos.Add(fDinheiro);
+            pedidoJoao.FormasPagamentos.Add(fCartao);
 
             //imprimir pedido
             ImprimirPedido();
-
 
         }
 
@@ -45,12 +44,15 @@ namespace Mercado
             Console.WriteLine($"Pedido do {pedidoJoao.Cliente.Nome}");
             Console.WriteLine($"Data: {pedidoJoao.Data.ToShortDateString()}");
             Console.WriteLine("-------------------------------");
-            foreach(var item in pedidoJoao.Produtos)
+            Console.WriteLine("Produtos:");
+
+            foreach(var item in pedidoJoao.Produtos) //percorrer a lista
             {
-                Console.WriteLine(item.Nome);
+                Console.WriteLine(item.Nome + " - " + item.Preco);
             }
 
             Console.WriteLine("-------------------------------");
+            Console.WriteLine("Forma de pagamento:");
             foreach(var item in pedidoJoao.FormasPagamentos)
             {
                 Console.WriteLine(item.Nome);

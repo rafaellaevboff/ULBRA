@@ -11,7 +11,7 @@ namespace Mercado.Entidades
             Data = data;
             Cliente = cliente;
             Produtos = produtos;
-            FormasPagamentos = new List<FormaPagamento>;
+            FormasPagamentos = new List<FormaPagamento>();
         }
 
         public int Id { get; set; }
