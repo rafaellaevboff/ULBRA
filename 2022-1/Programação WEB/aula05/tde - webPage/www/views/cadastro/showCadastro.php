@@ -60,7 +60,7 @@
             Linguagens que conhece
         </th>
         <td> 
-            <?= $cadastro['linguagem']?>
+            <?= $cadastro['linguagens']?>
         </td>
     </tr>
 </table>

@@ -47,11 +47,11 @@
 
     <div class="my-3">
         <label class="form-label" for="">Qual(is) linguagem(s) de programação você conhece?</label> <br>
-        <input type="checkbox" id="php" name="php" value="php">
+        <input type="checkbox" id="php" name="linguagens" value="php">
         <label for="php">PHP</label><br>
-        <input type="checkbox" id="csh" name="csh" value="csh">
+        <input type="checkbox" id="csh" name="linguagens" value="csh">
         <label for="csh">C#</label><br>
-        <input type="checkbox" id="other" name="other" value="other">
+        <input type="checkbox" id="other" name="linguagens" value="other">
         <label for="other">Outra(s)</label>
     </div>
 

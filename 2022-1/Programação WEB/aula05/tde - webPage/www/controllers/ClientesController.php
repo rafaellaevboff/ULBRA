@@ -17,7 +17,7 @@ class ClientesController{
             'contribuicao' => $_POST['contribuicao'],
             'semestre' => $_POST['semestre'],
             'estudante' => $_POST['estudante'],
-            'linguagem' => $_POST['linguagem']
+            'linguagens' => $_POST['linguagens']
         );
 
         require_once('views/templates/header.php');
