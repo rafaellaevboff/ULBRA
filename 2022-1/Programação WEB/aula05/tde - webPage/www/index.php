@@ -21,21 +21,21 @@ if(!isset($_GET["controller"])){
                 $site -> home();
             }else{
                 switch($_REQUEST['action']){
-                    case 'home'
-                        $site -> home():
-                    break
+                    case 'home':
+                        $site -> home();
+                    break;
 
-                    case 'about'
-                        $site -> about():
-                    break
+                    case 'about':
+                        $site -> about();
+                    break;
 
-                    case 'products'
-                        $site -> products():
-                    break
+                    case 'products':
+                        $site -> products();
+                    break;
 
-                    case 'contact'
-                        $site -> contact():
-                    break
+                    case 'contact':
+                        $site -> contact();
+                    break;
                 }
             }
         break;
@@ -44,8 +44,8 @@ if(!isset($_GET["controller"])){
             require_once("controllers/ClientController.php");
             $client = new ClientController();
 
-            if(!isset(_GET['action'])){
-                $client -> insertclient();
+            if(!isset($_GET['action'])){
+                $client -> insertClient();
             }else{
                 switch($_REQUEST['action']){
                     case 'insertClient':
@@ -58,6 +58,24 @@ if(!isset($_GET["controller"])){
                 }
             }
         break;
+
+        case 'cadastro':
+            require_once("controllers/ClientesController.php");
+            $cadastro = new ClientesController();
+
+            if(!isset($_GET['action'])){
+                $cadastro -> insertCadastro();
+            }else{
+                switch($_REQUEST['action']){
+                    case 'insertCadastro':
+                        $cadastro -> insertCadastro();
+                    break;
+
+                    case 'showCadastro':
+                        $cadastro -> showCadastro();
+                    break;
+                }
+            }
     }
 
 }

@@ -41,9 +41,12 @@
                 <li class="nav-item">
                 <a id="about" class="nav-link" href="?controller=site&action=contact">Contato</a>
                 </li>
-                <h3>Clientes</h3>
+                <h3 class="mt-4">Clientes</h3>
                 <li class="nav-item">
-                <a id="about" class="nav-link" href="?controller=client&action=insertClient">Cadastro</a>
+                <a id="about" class="nav-link" href="?controller=client&action=insertClient">Cadastro básico</a>
+                </li>
+                <li class="nav-item">
+                <a id="about" class="nav-link" href="?controller=cadastro&action=insertCadastro">Cadastro completo</a>
                 </li>
 
             </ul>
