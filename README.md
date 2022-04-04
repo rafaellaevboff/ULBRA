@@ -9,4 +9,5 @@
 - JavaScript
 - Java
 - SQL(MariaDB e PostgreSQL)
-- Pyhton
+- C#
+- PHP
