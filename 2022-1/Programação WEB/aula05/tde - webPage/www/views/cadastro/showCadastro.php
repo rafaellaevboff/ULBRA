@@ -48,6 +48,15 @@
 
     <tr>
         <th>
+            Turno que estuda:
+        </th>
+        <td> 
+            <?= $cadastro['turno']?>
+        </td>
+    </tr>
+
+    <tr>
+        <th>
             Tipo de estudante
         </th>
         <td> 

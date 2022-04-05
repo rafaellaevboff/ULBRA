@@ -38,8 +38,8 @@
     </div>
 
     <div class="mt-4">
-        <label for="semestre">Qual turno você estuda?</label><br>
-        <select size="3" name="semestre" class="m-2">
+        <label for="">Qual turno você estuda?</label><br>
+        <select size="3" name="turno" class="m-2">
             <option value="matutino">Manhã</option>
             <option value="vespertino">Tarde</option>
             <option value="noturno">Noite</option>

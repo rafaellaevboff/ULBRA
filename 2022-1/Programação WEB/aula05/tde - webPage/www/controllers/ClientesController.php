@@ -16,6 +16,7 @@ class ClientesController{
             'telefone' => $_POST['telefone'],
             'contribuicao' => $_POST['contribuicao'],
             'semestre' => $_POST['semestre'],
+            'turno' => $_POST['turno'],
             'estudante' => $_POST['estudante'],
             'linguagens' => $_POST['linguagens']
         );
