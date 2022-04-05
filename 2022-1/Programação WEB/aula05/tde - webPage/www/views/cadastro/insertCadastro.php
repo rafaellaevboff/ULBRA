@@ -37,6 +37,15 @@
         </select>
     </div>
 
+    <div class="mt-4">
+        <label for="semestre">Qual turno você estuda?</label><br>
+        <select size="3" name="semestre" class="m-2">
+            <option value="matutino">Manhã</option>
+            <option value="vespertino">Tarde</option>
+            <option value="noturno">Noite</option>
+        </select>
+    </div>
+
     <div class="mt-3">
         <label class="form-label" for="tipoEst">Escolha abaixo o que corresponde com você:</label> <br>
         <input type="radio" id="calouro" name="estudante" value="calouro">
@@ -47,11 +56,11 @@
 
     <div class="my-3">
         <label class="form-label" for="">Qual(is) linguagem(s) de programação você conhece?</label> <br>
-        <input type="checkbox" id="php" name="linguagens" value="php">
+        <input type="checkbox" name="linguagens" value="php">
         <label for="php">PHP</label><br>
-        <input type="checkbox" id="csh" name="linguagens" value="csh">
+        <input type="checkbox" name="linguagens" value="csh">
         <label for="csh">C#</label><br>
-        <input type="checkbox" id="other" name="linguagens" value="other">
+        <input type="checkbox" name="linguagens" value="other">
         <label for="other">Outra(s)</label>
     </div>
 
