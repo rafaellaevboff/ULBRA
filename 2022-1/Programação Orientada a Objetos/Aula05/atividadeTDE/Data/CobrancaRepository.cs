@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using atividadeTDE.Domain;
 
@@ -16,7 +17,7 @@ namespace atividadeTDE.Data
         //adicionar mais uma cobrança
         public void Save(Cobranca cobranca)
         {
-            listaDeCobranca.Add(cobranca);
+            listaDeCobranca.Add(cobranca); 
         }
 
         //achar uma cobrança por seu id
@@ -30,7 +31,7 @@ namespace atividadeTDE.Data
         {
             var cobrancaEditada = GetById(cobranca.Cod);
 
-            cobrancaEditada.Vencimento = cobranca.Vencimento;
+            cobrancaEditada.Vencimento = cobranca.DataVencimento;
             cobrancaEditada.Valor = cobranca.Valor;
         }
 

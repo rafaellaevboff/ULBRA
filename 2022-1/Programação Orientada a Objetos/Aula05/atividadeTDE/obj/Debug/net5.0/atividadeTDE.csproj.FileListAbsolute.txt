@@ -1,0 +1,5 @@
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula05\atividadeTDE\obj\Debug\net5.0\atividadeTDE.csproj.AssemblyReference.cache
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula05\atividadeTDE\obj\Debug\net5.0\atividadeTDE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula05\atividadeTDE\obj\Debug\net5.0\atividadeTDE.AssemblyInfoInputs.cache
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula05\atividadeTDE\obj\Debug\net5.0\atividadeTDE.AssemblyInfo.cs
+C:\Users\rafae\Desktop\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula05\atividadeTDE\obj\Debug\net5.0\atividadeTDE.csproj.CoreCompileInputs.cache

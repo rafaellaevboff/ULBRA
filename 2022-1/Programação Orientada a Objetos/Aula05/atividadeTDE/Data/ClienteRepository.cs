@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using atividadeTDE.Domain;
 
@@ -11,7 +12,7 @@ namespace atividadeTDE.Data
         public List<Cliente> GetAll()
         {
             return listaDeClientes;
-        }
+        } 
 
         //adicionar mais um cliente
         public void Save(Cliente cliente)

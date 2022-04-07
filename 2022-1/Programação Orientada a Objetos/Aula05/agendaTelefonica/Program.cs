@@ -8,7 +8,7 @@ namespace agendaTelefonica
         static void Main(string[] args)
         {
             ContatoController agenda = new ContatoController();
-            
+            agenda.Menu();
         }
     }
 }

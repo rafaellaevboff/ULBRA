@@ -1,6 +1,4 @@
-using System;
-
-namespace atividadeTDE.Domain
+namespace TdeCrudDeClientes.Domain
 {
     public class Cliente
     {
@@ -14,6 +12,5 @@ namespace atividadeTDE.Domain
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Telefone { get; set; }
-
     }
 }
