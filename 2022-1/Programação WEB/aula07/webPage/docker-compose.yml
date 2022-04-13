@@ -2,11 +2,9 @@
 # Prof. Vinícius Magnus
 # apache + php + mysql + phpmyqdmin
 version: "3.8"
-# https://docs.docker.com/compose/compose-file/
 services:
     www:
         build: .
-        container_name: 'www'
         ports: 
             - "8001:80"
         volumes:
@@ -32,7 +30,6 @@ services:
             MYSQL_ROOT_PASSWORD: test
         networks:
             - default
-
 networks:
     default:
         driver: bridge

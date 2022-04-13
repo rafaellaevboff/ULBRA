@@ -1,8 +1,5 @@
 <?php
-
-//vai ser um arquivo de roteamento
-//SEMPRE deixar ele dentro do www, sem estar em nenhuma pasta
-
+session_start();
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -13,17 +10,43 @@ if(!isset($_GET['controller'])){
     $Main -> index();
 }else{
     switch ($_REQUEST['controller']){
-        case '':
-            
+        case 'main':
+            require_once('controllers/MainController.php');
+            $Main = new MainController();
+
             if(!isset($_GET['action'])){
-                
+                //setar uma mação base
             }else{
                 switch($_REQUEST['action']){
-                    case:
+                    case 'index':
+                        $Main -> index();
+                    break;
 
+                    case:'login'
+                        $Main -> login();
+                    break;
+
+                    case 'logout':
+                        $Main -> logout();
                     break;
                 }
             }
+        break;
+
+        case 'user':
+            require_once('controllers/UserController.php');
+            $User = new UserController();
+
+            if(!isset($_GET['action'])){
+                //setar uma mação base
+            }else{
+                switch($_REQUEST['action']){
+                    case:'validatelogin'
+                        $User -> validatelogin();
+                    break;
+                }
+            }
+
         break;
 
 ?>

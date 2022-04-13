@@ -2,11 +2,3 @@
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-section div #nav{
-    background-color: rgb(248, 0, 0) !important;
-}
-
-article .conteudo{
-    background-color: aqua !important;
-}
