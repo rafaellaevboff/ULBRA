@@ -6,6 +6,7 @@ namespace clientesCobrancas.Controllers
     public class ClienteController
     {
         ClienteService clienteServ = new ClienteService();
+        Interface interf = new Interface();
 
         public void Menu()
         {
@@ -13,13 +14,14 @@ namespace clientesCobrancas.Controllers
 
             while(verificador != "0")
             {
-                Console.WriteLine("Digite 0 para sair da aplicação");
+                Console.WriteLine("Digite 0 para encerrar o programa");
                 Console.WriteLine("Digite 1 para adicionar um novo cliente");
                 Console.WriteLine("Digite 2 para editar um cliente");
                 Console.WriteLine("Digite 3 para listar todos cliente");
                 Console.WriteLine("Digite 4 para remover um cliente");
                 Console.WriteLine("Digite 5 para ver quantos clientes estão cadastrados");
                 Console.WriteLine("Digite 6 para verificar se um cliente está cadastrado, pelo NOME");
+                Console.WriteLine("Digite 7 para voltar para a aba de navegação");
 
 
                 verificador = Console.ReadLine();
@@ -105,8 +107,10 @@ namespace clientesCobrancas.Controllers
                         Console.WriteLine("Digite o nome que deseja procurar na lista:");
                         string nomeCliente = Console.ReadLine();
                         nomeCliente = clienteServ.AcharClienteNome(nomeCliente);
-                        
-                        //Console.WriteLine(nomeCliente);
+                    break;
+
+                    case "7":
+                        interf.MenuPrincipal();
                     break;
 
                     default:

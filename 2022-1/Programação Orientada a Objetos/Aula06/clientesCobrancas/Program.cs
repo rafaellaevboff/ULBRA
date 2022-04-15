@@ -1,4 +1,4 @@
-﻿using System;
+﻿using clientesCobrancas.Controllers;
 
 namespace clientesCobrancas
 {
@@ -6,7 +6,8 @@ namespace clientesCobrancas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ClienteCobrancaController ccc = new ClienteCobrancaController();
+            ccc.Menu();
         }
     }
 }
