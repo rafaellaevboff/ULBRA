@@ -1,4 +1,3 @@
-using System;           //ver ddd
 using System.Collections.Generic;
 
 namespace Encapsulamento.Domain

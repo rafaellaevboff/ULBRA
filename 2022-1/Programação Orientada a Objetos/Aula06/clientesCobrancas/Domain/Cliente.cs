@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+using System;
 
 namespace clientesCobrancas.Domain
 {
@@ -6,9 +6,9 @@ namespace clientesCobrancas.Domain
     {
         public Cliente(int id, string nome, string telefone)
         {
-            Id = id;
-            Nome = nome;
-            Telefone = telefone;
+            this.Id = id;
+            this.Nome = nome;
+            this.Telefone = telefone;
         } 
 
         public int Id { get; set; }

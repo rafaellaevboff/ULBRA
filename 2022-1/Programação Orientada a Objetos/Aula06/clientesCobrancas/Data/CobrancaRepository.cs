@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using clientesCobrancas.Domain;
 
 namespace clientesCobrancas.Data
@@ -16,12 +14,12 @@ namespace clientesCobrancas.Data
 
         public Cobrancas GetById(int idCobranca)
         {
-            return listaDeCobrancas.Find(p => p.Id == idCobranca); //usando expressão lambda
+            return listaDeCobrancas.Find(cob => cob.Id == idCobranca); //usando expressão lambda
         }
 
         public Cobrancas GetByCliente(Cliente cliente)
         {
-            return listaDeCobrancas.Find(p => p.Cliente == cliente);
+            return listaDeCobrancas.Find(cl => cl.Cliente == cliente);
         }
 
         public void Update(Cobrancas cobranca)
@@ -29,7 +27,7 @@ namespace clientesCobrancas.Data
             var cobrancaEditada = GetById(cobranca.Id);
 
             cobrancaEditada.Valor = cobranca.Valor;
-            cobrancaEditada.dataVencimento = cobranca.dataVencimento;
+            cobrancaEditada.DataVencimento = cobranca.DataVencimento;
         }
 
         public void Save(Cobrancas cobranca)

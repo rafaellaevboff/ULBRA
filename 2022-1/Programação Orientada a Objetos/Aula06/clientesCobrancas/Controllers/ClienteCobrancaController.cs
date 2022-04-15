@@ -1,6 +1,5 @@
 using System;
 using clientesCobrancas.Data;
-using clientesCobrancas.Domain;
 using clientesCobrancas.Services;
 
 namespace clientesCobrancas.Controllers
@@ -52,8 +51,7 @@ namespace clientesCobrancas.Controllers
                         string telefone = Console.ReadLine().Trim();
 
                         var retorno = clienteServ.criarCliente(nome, telefone);
-                        Console.WriteLine(retorno);
-                        Console.WriteLine("");
+                        Console.WriteLine(retorno + "\n");
                     break;
 
                     case "2":
@@ -80,8 +78,7 @@ namespace clientesCobrancas.Controllers
                         string novoTelefone = Console.ReadLine().Trim();
 
                         var retornoClienteEditado = clienteServ.editarCliente(idClienteInt, novoNome, novoTelefone);
-                        Console.WriteLine(retornoClienteEditado);
-                        Console.WriteLine("");
+                        Console.WriteLine(retornoClienteEditado + "\n");
                     break;
 
                     case "3":
@@ -125,14 +122,6 @@ namespace clientesCobrancas.Controllers
 
                     //COBRANÇAS:
                      case "7":
-                        Console.WriteLine("Digite a data de vencimento da cobranca:");
-                        string vencimento = Console.ReadLine().Trim();
-                        DateTime dataVencData = Convert.ToDateTime(vencimento);
-
-                        Console.WriteLine("Digite o valor da cobranca:");
-                        string valor = Console.ReadLine().Trim();
-                        double valorDouble = Convert.ToDouble(valor);
-
                         Console.WriteLine("Digite o id do cliente que essa cobrança pertence:");
                         var clientesListar = clienteServ.listarClientes();
                         int tamanhoLista = clienteServ.tamanhoListaClientes();
@@ -145,14 +134,24 @@ namespace clientesCobrancas.Controllers
                         {
                             Console.WriteLine(clientesListar);
                         }
+
                         string idDoCliente = Console.ReadLine();
                         var idDoClienteInt = Convert.ToInt32(idDoCliente);
-                        Cliente clienteCobranca = null;
-                        clienteCobranca = clRep.GetById(idDoClienteInt);
 
-                        var retorno2 = cobServices.criarCobranca(dataVencData, valorDouble, clienteCobranca);
-                        Console.WriteLine(retorno2);
-                        Console.WriteLine("");
+                        Console.WriteLine("Digite a data de emissão da cobranca:");
+                        string emissao = Console.ReadLine().Trim();
+
+                        Console.WriteLine("Digite a data de vencimento da cobranca:");
+                        string vencimento = Console.ReadLine().Trim();
+                        DateTime dataVencData = Convert.ToDateTime(vencimento);
+
+                        Console.WriteLine("Digite o valor da cobranca:");
+                        string valor = Console.ReadLine().Trim();
+                        double valorDouble = Convert.ToDouble(valor);
+
+                        
+                        var retorno2 = cobServices.criarCobranca(emissao, dataVencData, valorDouble, idDoClienteInt);
+                        Console.WriteLine(retorno2 + "\n");
                     break;
 
                     case "8":
@@ -163,44 +162,35 @@ namespace clientesCobrancas.Controllers
                         }
                         else
                         {
+                            cobServices.listarTodasCobrancas();
+
                             Console.WriteLine("Digite o id da cobrança que deseja pagar");
-                            string idCob = Console.ReadLine();
+                            string idCob = Console.ReadLine().Trim();
                             int idCobInt = Convert.ToInt32(idCob);
-                            var cobPagar = cobRep.GetById(idCobInt);
 
-                            DateTime dataHoje = DateTime.Today;
-                            
-                            if(dataHoje > cobPagar.dataVencimento){
-                                double valorReajustado = cobPagar.Valor * 1.15;
-                                cobPagar.Valor = valorReajustado;
-
-                                cobPagar.DataPagamento = dataHoje.ToString();
-                                cobPagar.Pago = true;
-
-                                Console.WriteLine($"Pagamento realizado. Você pagou depois da data de vencimento, por isso foi aplicado juros de 15%.\nValor com juros: R${cobPagar.Valor} - Data de Pagamento: {cobPagar.DataPagamento}");
-                            }else{
-                                cobPagar.DataPagamento = dataHoje.ToString();
-                                cobPagar.Pago = true;
-
-                                Console.WriteLine($"Pagamento realizado.\nValor pago: R${cobPagar.Valor} - Data de Pagamento: {cobPagar.DataPagamento}");
-                            }
+                            var retorno3 = cobServices.pagamentoEfetuar(idCobInt);
+                            Console.WriteLine(retorno3 + "\n");                            
                         }
                     break;
 
                     case "9":
-                        var retorno3 = cobServices.listarTodasCobrancas();
-                        Console.WriteLine(retorno3);
+                        var retorno4 = cobServices.listarTodasCobrancas();
+                        Console.WriteLine(retorno4);
                     break;
 
                     case "10":
                         Console.WriteLine("Para ver as cobranças de um cliente digite seu id");
+
+                        //mostrar a lista de cobranças:
                         var listarClientes = clienteServ.listarClientes();
                         Console.WriteLine(listarClientes);
-                        string idC = Console.ReadLine();
-                        int idCInt = Convert.ToInt32(idC);
-                        var clienteC = clRep.GetById(idCInt);
 
-                        cobServices.mostrarCobsDeCliente(clienteC);
+                        //ler em string e tranformar para int
+                        string idC = Console.ReadLine().Trim();
+                        int idCInt = Convert.ToInt32(idC);
+
+                        var retorno5 = cobServices.mostrarCobsDeCliente(idCInt);
+                        Console.WriteLine(retorno5 + "\n");
                     break;
 
                     default:

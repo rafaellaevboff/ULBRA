@@ -4,10 +4,12 @@ namespace clientesCobrancas.Domain
 {
     public class Cobrancas
     {
-        public Cobrancas(int id, DateTime dataVencimento, double valor, Cliente cliente)
+        public Cobrancas(int id, DateTime dataEmissao, DateTime dataVencimento, double valor, Cliente cliente)
         {
             this.Id = id;
-            this.dataVencimento = dataVencimento;
+            this.DataEmissao = dataEmissao;
+            this.DataVencimento = dataVencimento;
+            
             this.Valor = valor;
             this.Pago = false;
             this.DataPagamento = "";
@@ -15,7 +17,8 @@ namespace clientesCobrancas.Domain
         }
 
         public int Id { get; set; }
-        public DateTime dataVencimento { get; set; }
+        public DateTime DataEmissao { get; set; }
+        public DateTime DataVencimento { get; set; }
         public double Valor { get; set; }
         public bool Pago { get; set; }
         public string DataPagamento { get; set; }
