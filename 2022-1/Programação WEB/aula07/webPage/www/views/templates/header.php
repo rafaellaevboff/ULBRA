@@ -29,25 +29,40 @@
     <section class="container-fluid">
         <div class="row">
             <ul class="nav flex-column col-md-3 py-5" id="nav">
+                
+                <h3 class="mt-4">Site</h3>    
+
                 <li class="nav-item">
                 <a class="nav-link" href="?controller=site&action=home">Home</a>
                 </li>
+
                 <li class="nav-item">
                 <a class="nav-link" href="?controller=site&action=about">Sobre</a>
                 </li>
+
                 <li class="nav-item">
                 <a class="nav-link" href="?controller=site&action=products">Produtos</a>
                 </li>
+
                 <li class="nav-item">
                 <a class="nav-link" href="?controller=site&action=contact">Contato</a>
                 </li>
+
+
                 <h3 class="mt-4">Clientes</h3>
+
+                <li class="nav-item">
+                <a class="nav-link" href="?controller=cadastro&action=insertCadastro">Cadastro de Clientes</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="?controller=client&action=insertClient">Cadastrar Clientes</a>
+                </li>
+
                 <li class="nav-item">
                 <a class="nav-link" href="?controller=client&action=listClients">Listar Clientes</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="?controller=cadastro&action=insertCadastro">Cadastro completo</a>
-                </li>
+                
             </ul>
 
             <article class="conteudo col-md-9 py-5">

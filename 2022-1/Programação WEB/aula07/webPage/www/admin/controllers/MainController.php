@@ -1,12 +1,12 @@
 <?php
 
-class MainController{
+class MainController{ //verifica se o usuário está logado
 
     function index(){
         //testar se o usuário está logado
-        //var_dump($_SESSION);
-        if($_SESSION['user']){
-            require_once("iews/templates/header.php");
+        //var_dump($_SESSION); //identificar e guardar informações
+        if(isset($_SESSION['user'])){
+            require_once("views/templates/header.php");
             require_once('views/main/home.php');
             require_once('views/templates/footer.php');
         }else{

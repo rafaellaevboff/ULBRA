@@ -11,21 +11,18 @@ class UserController{
         $UserModel = new UserModel();
         $result = $UserModel -> getUser($login);
 
-        if($user = $result -> fetch_assoc()){
-            if($user['password'] == $password){
+        if($user = $result -> fetch_assoc()){ //se o usuário está cadastrado
+            if($user['password'] == $password){ //verificar se a senha está certa
                 $_SESSION['user'] = $user;
-                header('Location:index.php?controller=main&action=index')
-            }else{
-                print('Senha incorreta!')
+                header('Location:index.php?controller=main&action=index');
             }
-        }else{
-            print("usuário não existe!");
+            else{
+                print('Senha incorreta!');
+            }
+        }else{ //se o usuário não está cadastrado
+            print('Usuário não existe!');
         }
-
-
-        //$_SESSION['user'] = 'dados';
     }
-
 }
 
 ?>

@@ -1,8 +1,8 @@
 <?php
 
-class UserModel{
+class UserModel{ //uma model serve para acessar o banco de dados
 
-    function getUser(){
+    function getUser($login){
         require_once('db/ConnectClass.php');
         $connectClass = new ConnectClass();
         $connectClass -> openConnect();
@@ -10,7 +10,7 @@ class UserModel{
 
         $sql = "
             SELECT * FROM users
-            WHERE user = '{$login}'
+            WHERE user='{$login}'
         ";
 
         return $conn -> query($sql);

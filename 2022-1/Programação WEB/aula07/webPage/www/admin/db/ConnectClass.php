@@ -13,7 +13,6 @@ class ConnectClass{
 
        $this -> conn = new mysqli($serverName, $userName, $password, $dbName);
 
-
         if($this -> conn -> connect_error){
             die("Conexão com o Banco de Dados falhou -> ". $this -> conn -> connect_error);
         }
@@ -24,7 +23,6 @@ class ConnectClass{
     public function getConn()
     {
         return $this -> conn;
- 
     }
 }
 ?>

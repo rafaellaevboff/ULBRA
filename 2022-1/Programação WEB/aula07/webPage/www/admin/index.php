@@ -22,7 +22,7 @@ if(!isset($_GET['controller'])){
                         $Main -> index();
                     break;
 
-                    case:'login'
+                    case'login':
                         $Main -> login();
                     break;
 
@@ -41,12 +41,26 @@ if(!isset($_GET['controller'])){
                 //setar uma mação base
             }else{
                 switch($_REQUEST['action']){
-                    case:'validatelogin'
+                    case 'validatelogin':
                         $User -> validatelogin();
                     break;
                 }
             }
-
         break;
 
+        case 'site':
+            require_once('controllers/SiteController.php');
+            $site = new SiteController();
+            if(!isset($_GET['action'])){
+                $site -> home();
+            }else{
+                switch($_REQUEST['action']){
+                    case 'home':
+                        $site -> home();
+                    break;
+                }
+            }
+        break;
+    }
+}
 ?>

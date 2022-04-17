@@ -1,4 +1,4 @@
-<h1>Inserindo Client</h1>
+<h1>Inserir Cliente</h1>
 <form class="form" action="?controller=client&action=insertClientAction" method="post">
     <div class="mb-3 mt-3">
         <label class="form-label" for="">Nome</label>
