@@ -4,18 +4,22 @@
 }
 
 #nav{
-    background-color: rgb(211, 211, 211)!important;
+    background-color: #efe4f1!important;
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none!important;
     color: black !important;
 }
 
 a:hover{
-    color: rgb(179, 122, 209)!important;
+    color: rgb(255, 255, 255)!important;
 }
 
 #nav h3{
     margin-left: 5px;
+}
+
+.barras{
+    background-color: rgb(179, 122, 209)!important;
 }

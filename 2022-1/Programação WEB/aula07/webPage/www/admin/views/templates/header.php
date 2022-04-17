@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
     <!--CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <!--JQuery v3-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -21,7 +21,7 @@
 
 </head>
 <body>
-    <header class="p-5 bg-dark text-light text-center">
+    <header class="barras p-5 text-black text-center">
         <h1>Minha Área administrativa</h1>
         <a href="index.php?controller=main&action=logout">Sair</a>
     </header>

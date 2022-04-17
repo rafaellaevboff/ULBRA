@@ -21,7 +21,7 @@
 
 </head>
 <body>
-    <header class="p-5 bg-dark text-light text-center">
+    <header class="barras p-5 text-black text-center">
         <h1>Minha página usando PHP</h1>
     </header>
     
