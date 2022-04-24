@@ -34,15 +34,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="?controller=site&action=home">Home</a>
                 </li>
-            </ul>
-
-            <ul>
+                
                 <h3 class="mt-4">Clientes</h3>
                 <li class="nav-item">
-                    <a class="nav-link" href="?controller=clients&action=listClients">Lista de Clientes</a>
+                    <a id="list" class="nav-link" href="?controller=clients&action=listClients">Lista de Clientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?controller=clients&action=insertClients">Novo Cliente</a>
+                    <a id="insert" class="nav-link" href="?controller=clients&action=insertClient">-> Novo Cliente</a>
                 </li>
             </ul>
 

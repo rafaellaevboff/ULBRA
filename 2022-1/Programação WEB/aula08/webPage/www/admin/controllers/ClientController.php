@@ -12,7 +12,6 @@ class ClientController{
     //se usuários específicos podem alterar, outros criar, outros listar, tem q fazer método a método
 
     function ListClients(){
-
         require_once('models/ClientModel.php');
         $clientModel = new ClientModel();
         $result = $clientModel -> ListClients();
@@ -29,24 +28,26 @@ class ClientController{
 
     function insertClient(){
         require_once('views/templates/header.php');
-        require_once('views/client/insertClients.php');
+        require_once('views/client/insertClient.php');
         require_once('views/templates/footer.php');
     }
 
     function insertClientAction(){
         $client = array(
-            'nome' => $_POST['nome'],
+            'name' => $_POST['name'],
+            'phone' => $_POST['phone'],
             'email' => $_POST['email'],
-            'telefone' => $_POST['telefone'],
-            'endereco' => $_POST['endereco']
+            'address' => $_POST['address']
         );
+        //var_dump($client)
 
         require_once('models/ClientModel.php');
         $clientModel = new ClientModel();
         $result = $clientModel -> insertClient($client);
 
-        header('Location:index.php?controller=clients&action=listClients')
+        header('Location:index.php?controller=clients&action=listClients');
     }
+    
 }
 
 ?>

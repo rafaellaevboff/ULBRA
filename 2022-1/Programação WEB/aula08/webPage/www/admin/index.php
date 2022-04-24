@@ -69,8 +69,16 @@ if(!isset($_GET['controller'])){
                 $client -> insertClient();
             }else{
                 switch($_REQUEST['action']){
-                    case'listClients':
+                    case 'listClients':
                         $client -> listClients();
+                    break;
+
+                    case 'insertClient':
+                        $client -> insertClient();
+                    break;
+
+                    case 'insertClientAction':
+                        $client -> insertClientAction();
                     break;
                 }
             }

@@ -13,6 +13,8 @@ class ClientModel{
     }
 
     function insertClient($client){
+        //var_dump($client);
+        
         require_once('db/ConnectClass.php');
         $connectClass = new ConnectClass();
         $connectClass -> openConnect();
@@ -20,14 +22,16 @@ class ClientModel{
 
         $sql = "
             INSERT INTO
-            clients(name, phone, email, adress)
+            clients (name, phone, email, address)
             VALUES(
                 '{$client['name']}',
                 '{$client['phone']}',
                 '{$client['email']}',
-                '{$client['adress']'}'
+                '{$client['address']}'
                 )
         ";
+
+        //return var_dump($sql);
 
         return $conn -> query($sql);
     }

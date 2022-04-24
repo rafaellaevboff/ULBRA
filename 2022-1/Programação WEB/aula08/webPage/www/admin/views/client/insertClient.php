@@ -2,7 +2,7 @@
 <form class="form" action="?controller=clients&action=insertClientAction" method="post">
     <div class="mb-3 mt-3">
         <label class="form-label" for="">Nome</label>
-        <input name="nome" class="form-control" type="text">
+        <input name="name" class="form-control" type="text">
     </div>
 
     <div class="mb-3 mt-3">
@@ -12,12 +12,12 @@
 
     <div class="mb-3 mt-3">
         <label class="form-label" for="">Telefone</label>
-        <input name="telefone" class="form-control" type="text">
+        <input name="phone" class="form-control" type="text">
     </div>
 
     <div class="mb-3 mt-3">
         <label class="form-label" for="">Endereço</label>
-        <input name="endereco" class="form-control" type="text">
+        <input name="address" class="form-control" type="text">
     </div>
 
     <input class="btn btn-dark" type="submit" value="Enviar">
