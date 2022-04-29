@@ -5,13 +5,13 @@ namespace AgendaContatos.Domain
         public Contact(int id, string name, string phone)
         {
             Id = Id;
-            Name = name;
-            Phone = phone;
+            Nome = name;
+            Telefone = phone;
         }
 
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Phone { get; set; }
+        public string Nome { get; set; }
+        public string Telefone { get; set; }
         
 
     }

@@ -5,28 +5,29 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "Microsoft.EntityFrameworkCore.Design >= 5.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rafae\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafae\\Desktop\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula06\\AgendaContatos\\AgendaContatos.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula06\\AgendaContatos\\AgendaContatos.csproj",
       "projectName": "AgendaContatos",
-      "projectPath": "C:\\Users\\rafae\\Desktop\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula06\\AgendaContatos\\AgendaContatos.csproj",
-      "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafae\\Desktop\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula06\\AgendaContatos\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula06\\AgendaContatos\\AgendaContatos.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula06\\AgendaContatos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
@@ -42,14 +43,6 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -65,19 +58,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Não foi possível resolver 'Microsoft.EntityFrameworkCore.Design (>= 5.0.0)' para 'net5.0'.",
-      "libraryId": "Microsoft.EntityFrameworkCore.Design",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

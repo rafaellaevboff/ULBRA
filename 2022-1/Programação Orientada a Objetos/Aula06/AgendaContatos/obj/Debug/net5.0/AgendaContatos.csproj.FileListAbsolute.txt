@@ -14,3 +14,19 @@ C:\Wintrab\Ulbra\POO\POO-2022-2\Aula05\AgendaContatos\obj\Debug\net5.0\AgendaCon
 C:\Wintrab\Ulbra\POO\POO-2022-2\Aula05\AgendaContatos\obj\Debug\net5.0\ref\AgendaContatos.dll
 C:\Wintrab\Ulbra\POO\POO-2022-2\Aula05\AgendaContatos\obj\Debug\net5.0\AgendaContatos.pdb
 C:\Wintrab\Ulbra\POO\POO-2022-2\Aula05\AgendaContatos\obj\Debug\net5.0\AgendaContatos.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\AgendaContatos.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\AgendaContatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\AgendaContatos.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\AgendaContatos.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\AgendaContatos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\AgendaContatos.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\ref\AgendaContatos.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\AgendaContatos.pdb
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\bin\Debug\net5.0\AgendaContatos.exe
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\bin\Debug\net5.0\AgendaContatos.deps.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\bin\Debug\net5.0\AgendaContatos.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\bin\Debug\net5.0\AgendaContatos.runtimeconfig.dev.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\bin\Debug\net5.0\AgendaContatos.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\bin\Debug\net5.0\ref\AgendaContatos.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\bin\Debug\net5.0\AgendaContatos.pdb
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula06\AgendaContatos\obj\Debug\net5.0\AgendaContatos.genruntimeconfig.cache

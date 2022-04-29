@@ -3,52 +3,36 @@ using AgendaContatos.Domain;
 
 namespace AgendaContatos.Data
 {
-    public class ContactRepository
+    public class AgendaDeContatos
     {
-        private List<Contact> listContacts = new List<Contact>();
+        private List<Contact> listaDeContatos = new List<Contact>();
 
         public List<Contact> GetAll()
         {
-            return listContacts;
+            return listaDeContatos;
         }
 
-        public Contact GetById(int id)
+        public void Save(Contact contato)
         {
-
-            // foreach (var item in listaDeContatos)
-            // {
-            //     if(item.Id == id)
-            //     {
-            //         return item;
-            //     }
-                    
-            // }
-
-            // for (int i = 0; i < listaDeContatos.Count; i++)
-            // {
-            //     if(listaDeContatos[i].Id == id)
-            //     {
-            //         return listaDeContatos[0];
-            //     }
-            // }
-
-            return listContacts.Find(p=>p.Id == id);
-
-            
+            listaDeContatos.Add(contato);
         }
 
-        public void Save(Contact contact)
+        public Contact GetById(int idContato)
         {
-            listContacts.Add(contact);
+            return listaDeContatos.Find(p => p.Id == idContato);
         }
 
         public void Update(Contact contato)
         {
-            var edit = GetById(contato.Id);
+            var contatoEditado = listaDeContatos.Find(p => p.Id == contato.Id);
 
-            edit.Name = contato.Name;
-            edit.Phone = contato.Phone;
+            contatoEditado.Nome = contato.Nome;
+            contatoEditado.Telefone = contato.Telefone;
         }
 
+        public void Delete(Contact contato)
+        {
+            listaDeContatos.Remove(contato);
+        }
     }
 }
