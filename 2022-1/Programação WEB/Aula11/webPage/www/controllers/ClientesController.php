@@ -5,11 +5,9 @@ class ClientesController{
         require_once('views/templates/header.php');
         require_once('views/cadastro/insertCadastro.php');
         require_once('views/templates/footer.php');
-
     }
 
     function showCadastro(){
-
         $cadastro = array(
             'nome' => $_POST['nome'],
             'email' => $_POST['email'],
@@ -20,7 +18,6 @@ class ClientesController{
             'estudante' => $_POST['estudante'],
             'linguagens' => $_POST['linguagens']
         );
-
         require_once('views/templates/header.php');
         require_once('views/cadastro/showCadastro.php');
         require_once('views/templates/footer.php');

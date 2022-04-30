@@ -2,18 +2,21 @@
 
 class UserModel{ //uma model serve para acessar o banco de dados
 
-    function getUser($login){
-        require_once('db/ConnectClass.php');
-        $connectClass = new ConnectClass();
-        $connectClass -> openConnect();
-        $conn = $connectClass -> getConn();
+    var $Connection;
 
+    function __construct(){
+        require_once('db/ConnectClass.php');
+        $ConnectClass = new ConnectClass();
+        $ConnectClass -> openConnect();
+        $this -> Connection = $ConnectClass -> getConn();
+    }
+
+    function getUser($login){
         $sql = "
             SELECT * FROM users
             WHERE user='{$login}'
         ";
-
-        return $conn -> query($sql);
+        return $this -> Connection -> query($sql);
     }
 }
 

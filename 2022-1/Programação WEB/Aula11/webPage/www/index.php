@@ -9,32 +9,31 @@ error_reporting(E_ALL);
 
 if(!isset($_GET["controller"])){
     require_once("controllers/SiteController.php");
-    $site = new SiteController();
-    $site -> home();
-
+    $SiteController = new SiteController();
+    $SiteController -> home();
 }else{
     switch ($_REQUEST['controller']){
         case 'site':
             require_once("controllers/SiteController.php");
-            $site = new SiteController();
+            $SiteController = new SiteController();
             if(!isset($_GET['action'])){
-                $site -> home();
+                $SiteController -> home();
             }else{
                 switch($_REQUEST['action']){
                     case 'home':
-                        $site -> home();
+                        $SiteController -> home();
                     break;
 
                     case 'about':
-                        $site -> about();
+                        $SiteController -> about();
                     break;
 
                     case 'products':
-                        $site -> products();
+                        $SiteController -> products();
                     break;
 
                     case 'contact':
-                        $site -> contact();
+                        $SiteController -> contact();
                     break;
                 }
             }
@@ -42,22 +41,21 @@ if(!isset($_GET["controller"])){
 
         case 'client':
             require_once("controllers/ClientController.php");
-            $client = new ClientController();
-
+            $ClientController = new ClientController();
             if(!isset($_GET['action'])){
-                $client -> insertClient();
+                $ClientController -> insertClient();
             }else{
                 switch($_REQUEST['action']){
                     case 'insertClient':
-                        $client -> insertClient();
+                        $ClientController -> insertClient();
                     break;
 
                     case 'insertClientAction':
-                        $client -> insertClientAction();
+                        $ClientController -> insertClientAction();
                     break;
 
                     case 'listClients':
-                        $client -> listClients();
+                        $ClientController -> listClients();
                     break;
                 }
             }
@@ -65,21 +63,21 @@ if(!isset($_GET["controller"])){
 
         case 'cadastro':
             require_once("controllers/ClientesController.php");
-            $cadastro = new ClientesController();
-
+            $ClientesController = new ClientesController();
             if(!isset($_GET['action'])){
-                $cadastro -> insertCadastro();
+                $ClientesController -> insertCadastro();
             }else{
                 switch($_REQUEST['action']){
                     case 'insertCadastro':
-                        $cadastro -> insertCadastro();
+                        $ClientesController -> insertCadastro();
                     break;
 
                     case 'showCadastro':
-                        $cadastro -> showCadastro();
+                        $ClientesController -> showCadastro();
                     break;
                 }
             }
+        break;
     }
 
 }

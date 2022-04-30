@@ -2,15 +2,17 @@
 
 class UserController{
 
-    function validatelogin(){
+    var $UserModel;
 
+    function __construct(){
+        require_once('models/UserModel.php');
+        $this -> UserModel = new UserModel();
+    }
+
+    function validatelogin(){
         $login = $_POST['login'];
         $password = $_POST['password'];
-
-        require_once('models/UserModel.php');
-        $UserModel = new UserModel();
-        $result = $UserModel -> getUser($login);
-
+        $result = $this -> UserModel -> getUser($login);
         if($user = $result -> fetch_assoc()){ //se o usuário está cadastrado
             if($user['password'] == $password){ //verificar se a senha está certa
                 $_SESSION['user'] = $user;
