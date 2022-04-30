@@ -1,4 +1,5 @@
 using System.Text;
+using System.Linq;
 using AgendaContatos.Data;
 using AgendaContatos.Domain;
 
@@ -6,33 +7,88 @@ namespace AgendaContatos.Services
 {
     public class ContactService
     {
-        ContactRepository minhaAgenda = new ContactRepository();
+        AgendaDeContatos minhaAgenda = new AgendaDeContatos();
 
-        public int GetNextId() { return minhaAgenda.GetAll().Count + 1; }
 
-        public string Create(string name, string phone)
+        public int TamanhoLista()
         {
-            minhaAgenda.Save(new Contact(GetNextId(), name, phone));
-            return "Contato criado com sucesso.";
+            var quantidade = minhaAgenda.GetAll().Count;
+            return quantidade;
+        }
+        public string CriarContato(string nome, string telefone)
+        {
+            int idContato = TamanhoLista() + 1;
+
+            minhaAgenda.Save(new Contact(idContato, nome, telefone));
+
+            return "Contato adicionado com sucesso!";
         }
 
-        public string ListContacts()
+        public string ListarContatos()
         {
             var builder = new StringBuilder();
-            var listContacts = minhaAgenda.GetAll();
-            var qtdContatos = listContacts.Count;
+            var contatos = minhaAgenda.GetAll();
+            var qtdContatos = TamanhoLista();
 
             if (qtdContatos == 0)
-                builder.AppendLine("Lista vazia");
-            else
             {
-                foreach (Contact contact in listContacts)
-                {
-                    builder.AppendLine($"nome: {contact.Name}   Id: {contact.Id}");
-                }
+                builder.AppendLine("Lista vazia, para poder editar é necessário possuir contatos cadastrados!");
+                return builder.ToString();
             }
+
+            foreach (var item in contatos)
+            {
+                builder.AppendLine("Id: " + item.Id + " - " + item.Nome + " Número: " + item.Telefone);
+            }
+
             return builder.ToString();
         }
-           
+
+        public string EditarContato(int idContato, string nome, string telefone)
+        {
+            string retorno;
+
+            if (TamanhoLista().Equals(0))
+            {
+                retorno = "Lista vazia, para poder editar é necessário possuir contatos cadastrados!";
+                return retorno;
+            }
+
+            var contato = minhaAgenda.GetById(idContato);
+
+            if (contato == null)
+            {
+                retorno = "Contato não encontrado!";
+                return retorno;
+            }
+
+            minhaAgenda.Update(new Contact(idContato, nome, telefone));
+
+            retorno = "Contato editado com sucesso";
+            return retorno;
+        }
+
+        public string RemoverContato(int idContato)
+        {
+            string retorno;
+
+            if (TamanhoLista().Equals(0))
+            {
+                retorno = "Lista vazia, para poder remover é necessário possuir contatos cadastrados!";
+                return retorno;
+            }
+
+            var contato = minhaAgenda.GetById(idContato);
+
+            if (contato == null)
+            {
+                retorno = "Não existe um contato com o código " + idContato;
+            }
+
+            minhaAgenda.Delete(contato);
+
+            retorno = "Contato excluído com sucesso!";
+            return retorno;
+        }
     }
 }

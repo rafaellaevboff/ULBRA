@@ -8,10 +8,7 @@ namespace AgendaContatos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             ContactController control = new ContactController();
-
             control.Menu();
         }
     }
