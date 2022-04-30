@@ -61,28 +61,6 @@ if(!isset($_GET['controller'])){
                 }
             }
         break;
-
-        case 'clients':
-            require_once("controllers/ClientController.php");
-            $client = new ClientController();
-            if(!isset($_GET['action'])){
-                $client -> insertClient();
-            }else{
-                switch($_REQUEST['action']){
-                    case 'listClients':
-                        $client -> listClients();
-                    break;
-
-                    case 'insertClient':
-                        $client -> insertClient();
-                    break;
-
-                    case 'insertClientAction':
-                        $client -> insertClientAction();
-                    break;
-                }
-            }
-        break;
     }
 }
 ?>

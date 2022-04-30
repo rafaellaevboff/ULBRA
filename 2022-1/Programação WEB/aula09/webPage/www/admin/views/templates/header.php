@@ -30,8 +30,17 @@
     <section class="container-fluid">
         <div class="row">
             <ul class="nav flex-column col-md-3 py-5" id="nav">
+                <h3>Menu</h3>
                 <li class="nav-item">
                     <a class="nav-link" href="?controller=site&action=home">Home</a>
+                </li>
+                
+                <h3 class="mt-4">Clientes</h3>
+                <li class="nav-item">
+                    <a id="list" class="nav-link" href="?controller=clients&action=listClients">Lista de Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a id="insert" class="nav-link" href="?controller=clients&action=insertClient">-> Novo Cliente</a>
                 </li>
             </ul>
 

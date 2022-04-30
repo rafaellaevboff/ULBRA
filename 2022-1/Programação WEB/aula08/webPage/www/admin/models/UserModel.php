@@ -14,7 +14,9 @@ class UserModel{ //uma model serve para acessar o banco de dados
         ";
 
         return $conn -> query($sql);
+
     }
+
 }
 
 ?>
