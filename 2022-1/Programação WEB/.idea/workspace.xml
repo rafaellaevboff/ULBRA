@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="294a7156-3d41-4fe2-9a52-b8c9ca235a2f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/mysql/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/assets/css/styleLogin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/controllers/ClientController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/controllers/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/db/ConnectClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/models/ClientModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/models/UserModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/views/client/insertClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/views/client/listClients.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/views/client/updateClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/views/main/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/views/main/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/views/templates/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/admin/views/templates/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/controllers/ClientController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/controllers/ClientesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/controllers/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/db/ConnectClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/models/ClientModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/cadastro/insertCadastro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/cadastro/showCadastro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/client/insertClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/client/insertClientAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/client/listClients.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/pages/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/pages/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/pages/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/pages/products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/templates/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/webPage/www/views/templates/header.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="28btLa0tizwyWJxGh1e6uFEgR5u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="294a7156-3d41-4fe2-9a52-b8c9ca235a2f" name="Changes" comment="" />
+      <created>1651497068416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651497068416</updated>
+      <workItem from="1651497069763" duration="11000" />
+    </task>
+    <servers />
+  </component>
+</project>
