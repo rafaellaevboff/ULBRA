@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C948EB6F-51C9-4BDB-928D-DB502328DBB7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+    <Files>
+      <File FileName="Models/Repositories/PersonRepository.cs" Line="14" Column="30" />
+      <File FileName="Startup.cs" Line="37" Column="97" />
+      <File FileName="appsettings.json" Line="4" Column="322" />
+      <File FileName="Controllers/PersonController.cs" Line="59" Column="43" />
+      <File FileName="ViewModels/PersonUpdate.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CrudPerson" expanded="True">
+            <Node name="CrudPerson" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CrudPerson PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

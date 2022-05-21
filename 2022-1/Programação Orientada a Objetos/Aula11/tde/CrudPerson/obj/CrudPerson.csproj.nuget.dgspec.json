@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula12\\tde\\CrudPerson\\CrudPerson.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula11\\tde\\CrudPerson\\CrudPerson.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula12\\tde\\CrudPerson\\CrudPerson.csproj": {
+    "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula11\\tde\\CrudPerson\\CrudPerson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula12\\tde\\CrudPerson\\CrudPerson.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula11\\tde\\CrudPerson\\CrudPerson.csproj",
         "projectName": "CrudPerson",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula12\\tde\\CrudPerson\\CrudPerson.csproj",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula11\\tde\\CrudPerson\\CrudPerson.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula12\\tde\\CrudPerson\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula11\\tde\\CrudPerson\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,11 +38,19 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.10, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

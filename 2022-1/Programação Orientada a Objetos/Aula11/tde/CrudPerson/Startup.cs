@@ -33,6 +33,8 @@ namespace CrudPerson
              services.AddDbContext<DataContext>(
                 x=>x.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IPersonRepository,PersonRepository>();
+            //UseSqlite
+            //alterar tbm no appsettings a connectionString e rodar um dotnet ef database update
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

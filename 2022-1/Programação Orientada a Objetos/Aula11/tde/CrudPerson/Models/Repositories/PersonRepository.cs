@@ -15,8 +15,8 @@ namespace CrudPerson.Repositories
     }
     public void Create(Person person)
     {
-        context.Add(person);
-        context.SaveChanges();
+      context.Add(person);
+      context.SaveChanges();
     }
 
     public List<Person> GetAll()

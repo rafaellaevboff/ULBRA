@@ -20,7 +20,18 @@ namespace CrudPerson.WebApi.Controllers
     [HttpGet()] //vai chamar a lista de pessoas
     public IEnumerable<Person>Get()
     {
-        return repository.GetAll();
+      return repository.GetAll();
+    }
+
+    [HttpGet("{id}")] //vai chamar uma pessoa
+    public IActionResult Get([FromRoute] int id)
+    {
+      var person = repository.GetById(id);
+
+      if (person == null)
+        return NotFound();
+      else
+        return Ok(person);
     }
 
     [HttpPost()] //vai cadastrar uma pessoa
@@ -32,9 +43,8 @@ namespace CrudPerson.WebApi.Controllers
 
     //deletar e editar:
     
-    [HttpDelete]
-    [Route("person/{id}")]
-    public IActionResult Delete(int id)
+    [HttpDelete("{id}")] //vai deletar uma pessoa, de acordo com o id informado
+    public IActionResult Delete([FromRoute]int id)
     {
       var person = repository.GetById(id);
       if (person == null) return NotFound();
@@ -43,15 +53,17 @@ namespace CrudPerson.WebApi.Controllers
       return Ok(person);
     }
 
-    [HttpPut]
-    [Route("person/{id}")]
-    public IActionResult Put(int id, [FromBody] PersonUpdate model)
+    [HttpPut("{id}")] //vai editar uma pessoa de acordo com o id informado e com os dados alterados
+    public IActionResult Put([FromRoute]int id, [FromBody] PersonUpdate model)
     {
       var person = repository.GetById(id);
       if (person == null) return NotFound();
 
+      person.Nome = model.Nome;
       person.Email = model.Email;
+      person.Cpf = model.Cpf;
       person.Fone = model.Fone;
+      person.Endereco = model.Endereco;
 
       repository.Update(person);
       return Ok(person);
