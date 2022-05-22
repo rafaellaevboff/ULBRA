@@ -1,5 +1,3 @@
-
-
 namespace CrudPerson.Domains
 {
   public class Person

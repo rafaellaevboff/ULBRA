@@ -1,4 +1,3 @@
-
 using CrudPerson.Domains;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +9,6 @@ namespace CrudPerson.Models.Repositories
             :base(opts)
         {}
 
-        public DbSet<Person> Person { get; set; }
+        public DbSet<Person> Person { get; set; } 
     }
 }

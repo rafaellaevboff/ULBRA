@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using CrudPerson.Domains;
 
-
 namespace CrudPerson.Repositories
 {
   public interface IPersonRepository
