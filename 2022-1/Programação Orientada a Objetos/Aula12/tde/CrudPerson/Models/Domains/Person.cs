@@ -7,10 +7,10 @@ namespace CrudPerson.Domains
 
     }
     public int Id { get; set; }
-    public string Nome { get; set; }
-    public string Email { get; set; }
-    public string Cpf { get; set; }
-    public string Fone { get; set; }
-    public string Endereco { get; set; }
+    public string Nome { get; set; } = string.Empty;
+    public string Email { get; set; } = string.Empty;
+    public string Cpf { get; set; } = string.Empty;
+    public string Fone { get; set; } = string.Empty;
+    public string Endereco { get; set; } = string.Empty;
   }
 }
