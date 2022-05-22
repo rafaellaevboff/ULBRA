@@ -1,6 +1,6 @@
 namespace CrudPerson.ViewModels
 {
-  public class PersonUpdate
+  public class ClienteUpdate
   {
     public string Nome { get; set; }
     public string Email { get; set; }

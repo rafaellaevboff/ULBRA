@@ -15,9 +15,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//chamando a string de conexão - banco de dados
 builder.Services.AddDbContext<DataContext>(
-        x=>x.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-    builder.Services.AddScoped<IPersonRepository,PersonRepository>();
+    x=>x.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IClienteRepository,ClienteRepository>();
 
 var app = builder.Build();
 

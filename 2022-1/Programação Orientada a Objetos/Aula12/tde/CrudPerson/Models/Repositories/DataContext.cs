@@ -9,6 +9,6 @@ namespace CrudPerson.Models.Repositories
             :base(opts)
         {}
 
-        public DbSet<Person> Person { get; set; } 
+        public DbSet<Cliente> Clientes { get; set; } 
     }
 }
