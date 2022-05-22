@@ -1,0 +1,16 @@
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\bin\Debug\net5.0\classe5.exe
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\bin\Debug\net5.0\classe5.deps.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\bin\Debug\net5.0\classe5.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\bin\Debug\net5.0\classe5.runtimeconfig.dev.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\bin\Debug\net5.0\classe5.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\bin\Debug\net5.0\classe5.pdb
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\classe5.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\classe5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\classe5.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\classe5.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\classe5.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\classe5.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\refint\classe5.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\classe5.pdb
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\classe5.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula12\classe5\obj\Debug\net5.0\ref\classe5.dll

@@ -1,0 +1,15 @@
+criar api usando dotnet 5 
+$ dotnet new webapi -n webapi5 --framework net5.0
+
+criar projeto e api usando dotnet 6
+$ dotnet new console -n classe6
+$ dotnet new webapi -n webapi6  
+$ dotnet new webapi -o webapi6  
+
+criar uma api
+dotnet new web -n minimalapi
+
+mudar framework 5 pra 6
+--framework net6.0
+
+o webapi tem o swagger
