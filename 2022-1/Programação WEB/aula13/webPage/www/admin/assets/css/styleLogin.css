@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #efe4f1;
+}
+
+#nav{
+    background-color: rgb(211, 211, 211)!important;
+}
+
+a{
+    text-decoration: none!important;
+    color: black !important;
+}
+
+a:hover{
+    color: rgb(179, 122, 209)!important;
+}
+
+#nav h3{
+    margin-left: 5px;
+}
+
+.botao{
+    background-color:rgb(179, 122, 209);
+}
+
+.conteudo{
+    margin-top: 40%!important;
+}

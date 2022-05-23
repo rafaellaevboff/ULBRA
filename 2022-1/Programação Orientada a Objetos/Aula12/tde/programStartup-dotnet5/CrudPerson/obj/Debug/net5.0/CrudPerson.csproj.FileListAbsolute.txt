@@ -1,0 +1,230 @@
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/appsettings.json
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/CrudPerson.exe
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/CrudPerson.deps.json
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/CrudPerson.runtimeconfig.json
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/CrudPerson.runtimeconfig.dev.json
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/CrudPerson.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/ref/CrudPerson.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/CrudPerson.pdb
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Humanizer.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Npgsql.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.AssemblyReference.cache
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.AssemblyInfoInputs.cache
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.AssemblyInfo.cs
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.CoreCompileInputs.cache
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/staticwebassets/CrudPerson.StaticWebAssets.Manifest.cache
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/staticwebassets/CrudPerson.StaticWebAssets.xml
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/scopedcss/bundle/CrudPerson.styles.css
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.RazorTargetAssemblyInfo.cache
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.CopyComplete
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/ref/CrudPerson.dll
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.pdb
+C:/Users/zuera/OneDrive/Área de Trabalho/Ulbra/2022.1/PROGRAMAÇÃO ORIENTADA A OBJETOS/CrudPerson/obj/Debug/net5.0/CrudPerson.genruntimeconfig.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/appsettings.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/CrudPerson.exe
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/CrudPerson.deps.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/CrudPerson.runtimeconfig.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/CrudPerson.runtimeconfig.dev.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/CrudPerson.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/ref/CrudPerson.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/CrudPerson.pdb
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Humanizer.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Npgsql.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.AssemblyReference.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.AssemblyInfoInputs.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.AssemblyInfo.cs
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.CoreCompileInputs.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/staticwebassets/CrudPerson.StaticWebAssets.Manifest.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/staticwebassets/CrudPerson.StaticWebAssets.xml
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/scopedcss/bundle/CrudPerson.styles.css
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.RazorTargetAssemblyInfo.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.CopyComplete
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/ref/CrudPerson.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.pdb
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/CrudPerson/obj/Debug/net5.0/CrudPerson.genruntimeconfig.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/appsettings.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/CrudPerson.exe
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/CrudPerson.deps.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/CrudPerson.runtimeconfig.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/CrudPerson.runtimeconfig.dev.json
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/CrudPerson.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/CrudPerson.pdb
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Humanizer.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Npgsql.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.AssemblyReference.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.AssemblyInfoInputs.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.AssemblyInfo.cs
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.CoreCompileInputs.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/staticwebassets/CrudPerson.StaticWebAssets.Manifest.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/scopedcss/bundle/CrudPerson.styles.css
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.RazorTargetAssemblyInfo.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.CopyComplete
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/ref/CrudPerson.dll
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.pdb
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/CrudPerson.genruntimeconfig.cache
+C:/Users/Usuario/OneDrive/Área de Trabalho/ULBRA/GitHub/Ulbra/2022-1/Programação Orientada a Objetos/Aula12/tde/CrudPerson/obj/Debug/net5.0/refint/CrudPerson.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/appsettings.Development.json
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/appsettings.json
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/CrudPerson.deps.json
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/CrudPerson.runtimeconfig.json
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/CrudPerson.runtimeconfig.dev.json
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/CrudPerson.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/ref/CrudPerson.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/CrudPerson.pdb
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Humanizer.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Npgsql.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.AssemblyReference.cache
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.AssemblyInfoInputs.cache
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.AssemblyInfo.cs
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.CoreCompileInputs.cache
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.MvcApplicationPartsAssemblyInfo.cs
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.MvcApplicationPartsAssemblyInfo.cache
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/staticwebassets/CrudPerson.StaticWebAssets.Manifest.cache
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/staticwebassets/CrudPerson.StaticWebAssets.xml
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/scopedcss/bundle/CrudPerson.styles.css
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.RazorTargetAssemblyInfo.cache
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.csproj.CopyComplete
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.dll
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/ref/CrudPerson.dll
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.pdb
+/Users/arthurrocha/Desktop/CrudPerson/obj/Debug/net5.0/CrudPerson.genruntimeconfig.cache
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/SQLitePCLRaw.core.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/arthurrocha/Desktop/CrudPerson/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\appsettings.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\CrudPerson.StaticWebAssets.xml
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\CrudPerson.exe
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\CrudPerson.deps.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\CrudPerson.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\CrudPerson.runtimeconfig.dev.json
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\CrudPerson.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\CrudPerson.pdb
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\scopedcss\bundle\CrudPerson.styles.css
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\staticwebassets\CrudPerson.StaticWebAssets.Manifest.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.RazorTargetAssemblyInfo.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.csproj.CopyComplete
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\refint\CrudPerson.dll
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.pdb
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\CrudPerson.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Área de Trabalho\ULBRA\GitHub\Ulbra\2022-1\Programação Orientada a Objetos\Aula11\tde\CrudPerson\obj\Debug\net5.0\ref\CrudPerson.dll
