@@ -12,7 +12,7 @@ class ContactModel{
     }
 
     function listContacts(){
-        $sql = 'SELECT * FROM contacts';
+        $sql = "SELECT * FROM contacts";
         return $this -> Connection -> query($sql);
     }
 
@@ -46,11 +46,11 @@ class ContactModel{
             SET
                 name='{$contact['name']}',
                 email='{$contact['email']}',
-                phone='{$contact['message']}',
-                address='{$contact['status']}',
-                description='{contact['description']}'
+                message='{$contact['message']}',
+                status='{$contact['status']}',
+                description='{$contact['description']}'
             WHERE
-                idContact = {$contact['idContact']}
+                idContact = '{$contact['idContact']}';
         ";
         //var_dump($sql);
         return $this -> Connection -> query($sql);

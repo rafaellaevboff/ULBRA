@@ -29,7 +29,7 @@ class ClientController{
             echo json_encode($client);
         }else{
             header('Content-Type: application/json');
-            echo('{"error": 01 "cliente não encontrado"}');
+            echo('{"error": "cliente não encontrado"}');
         }
     }
 
@@ -43,7 +43,7 @@ class ClientController{
         );
         $idClient = $this -> ClientModel -> insertClient($arrayClient);
         header('Content-Type: application/json');
-        echo('{"cod": 01 "cliente foi cadastrado"}');
+        echo('{"message": 01 "cliente foi cadastrado"}');
     }
 
     function updateClient($idClient){

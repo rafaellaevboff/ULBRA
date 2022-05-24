@@ -26,7 +26,7 @@ class ContactController{
             echo json_encode($contato);
         }else{
             header('Content-Type: application/json');
-            echo('{"error": 01 "Contato não encontrado"}');
+            echo('{"error": "Contato não encontrado"}');
         }
     }
 
@@ -37,11 +37,11 @@ class ContactController{
             'email' => $contact -> email,
             'message' => $contact -> message,
             'status' => $contact -> status,
-            'description' => $contact -> description,
+            'description' => $contact -> description
         );
         $idContact = $this -> ContactModel -> insertContact($arrayContact);
         header('Content-Type: application/json');
-        echo('{"cod": 01 "Contato foi cadastrado"}');
+        echo('{"message": "Contato foi cadastrado"}');
     }
 
     function updateContact($idContact){
@@ -56,10 +56,14 @@ class ContactController{
             'description' => $contact -> description,
         );
         $this -> ContactModel -> updateContact($arrayContact);
+        header('Content-Type: application/json');
+        echo('{"message": "Contato foi editado"}');
     }
 
     function deleteContact($idContact){
         $this -> ContactModel -> deleteContact($idContact);
+        header('Content-Type: application/json');
+        echo('{"message": "Contato foi excluído"}');
     }    
 }
 ?>
