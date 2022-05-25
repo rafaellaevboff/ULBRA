@@ -43,7 +43,7 @@ class ClientController{
         );
         $idClient = $this -> ClientModel -> insertClient($arrayClient);
         header('Content-Type: application/json');
-        echo('{"message": 01 "cliente foi cadastrado"}');
+        echo('{"message": "cliente foi cadastrado"}');
     }
 
     function updateClient($idClient){
@@ -57,10 +57,14 @@ class ClientController{
             'address' => $client -> address
         );
         $this -> ClientModel -> updateClient($arrayClient);
+        header('Content-Type: application/json');
+        echo('{"message": "cliente foi atualizado"}');
     }
 
     function deleteClient($idClient){
         $this -> ClientModel -> deleteClient($idClient);
+        header('Content-Type: application/json');
+        echo('{"message": "cliente foi excluído"}');
     }    
 }
 ?>

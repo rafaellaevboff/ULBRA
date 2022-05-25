@@ -13,7 +13,6 @@ $uriSegments = explode("/", $rout);
 if(isset($uriSegments[1])){	
 	switch($uriSegments[1]){
 		case 'client':
-
 			require_once("controllers/UserController.php");
 			$User = new UserController();
 
@@ -36,7 +35,7 @@ if(isset($uriSegments[1])){
 						if(isset($uriSegments[2]))
 							$client -> updateClient($uriSegments[2]);
 					break;
-					
+
 					case 'DELETE':
 						if(isset($uriSegments[2]))
 							$client -> deleteClient($uriSegments[2]);

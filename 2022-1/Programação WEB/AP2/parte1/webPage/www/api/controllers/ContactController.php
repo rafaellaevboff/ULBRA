@@ -35,9 +35,7 @@ class ContactController{
         $arrayContact = array(
             'name' => $contact -> name,
             'email' => $contact -> email,
-            'message' => $contact -> message,
-            'status' => $contact -> status,
-            'description' => $contact -> description
+            'message' => $contact -> message
         );
         $idContact = $this -> ContactModel -> insertContact($arrayContact);
         header('Content-Type: application/json');
