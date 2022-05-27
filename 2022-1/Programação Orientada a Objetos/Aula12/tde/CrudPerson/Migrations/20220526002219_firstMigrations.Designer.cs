@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CrudPerson.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220522004650_firstMigrations")]
+    [Migration("20220526002219_firstMigrations")]
     partial class firstMigrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
