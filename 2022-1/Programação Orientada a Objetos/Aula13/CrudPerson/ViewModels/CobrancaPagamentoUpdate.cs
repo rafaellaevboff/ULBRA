@@ -1,8 +1,7 @@
 namespace CrudPerson.ViewModels
 {
-    public class CobrancaUpdate
+    public class CobrancaPagamentoUpdate
     {
-        public DateTime DataVencimento { get; set; }
         public DateTime DataPagamento { get; set; }
     }
 }

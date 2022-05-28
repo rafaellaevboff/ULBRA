@@ -54,13 +54,25 @@ namespace CrudPerson.Controllers
 
     //editar uma pessoa de acordo com o id informado e com os dados alterados
     [HttpPut("{id}")] 
-    public IActionResult Put([FromRoute]int id, [FromBody] CobrancaUpdate update)
+    public IActionResult Put([FromRoute]int id, [FromBody] CobrancaVencimentoUpdate update)
     {
       var cobranca = repository.GetById(id);
       if (cobranca == null) return NotFound();
 
       cobranca.DataVencimento = update.DataVencimento;
-      cobranca.DataPagamento = update.DataPagamento;
+      //cobranca.DataPagamento = DateTime.Now;
+
+      repository.Update(cobranca);
+      return Ok(cobranca);
+    }
+
+    [HttpPatch("{id}")] 
+    public IActionResult Patch([FromRoute]int id, [FromBody] CobrancaPagamentoUpdate update)
+    {
+      var cobranca = repository.GetById(id);
+      if (cobranca == null) return NotFound();
+
+      cobranca.DataPagamento = DateTime.Now;
 
       repository.Update(cobranca);
       return Ok(cobranca);
