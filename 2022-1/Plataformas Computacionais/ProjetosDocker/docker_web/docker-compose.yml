@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  server-web:
+    image: httpd:2.4
+    container_name: 'server-web'
+    ports:
+      - 80:80
+    volumes:
+      - ./htdocs:/usr/local/apache2/htdocs
