@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using projetoCrud.Models.Domains;
 using projetoCrud.Models.Repositories;
@@ -5,66 +6,82 @@ using projetoCrud.ViewModels;
 
 namespace projetoCrud.Controllers
 {
-    public class AlunoController
+    //[ApiController]
+    [Route("[controller]")]
+    public class AlunoController: ControllerBase
     {
-        [ApiController]
-        [Route("[controller]")]
-        public class PersonController : ControllerBase
+        private readonly IAlunoRepository repository;
+        private readonly IUnitOfWork _unitOfWork;
+
+        public AlunoController(IAlunoRepository alunoRepository, IUnitOfWork unitOfWork)
         {
-            private readonly IAlunoRepository repository;
+            this.repository = alunoRepository;
+            this._unitOfWork = unitOfWork;
+        }
 
-            public PersonController(IAlunoRepository alunoRepository)
-            {
-                this.repository = alunoRepository;
-            }
+        [HttpGet()]
+        public async Task<IActionResult> GetAllAsync()
+        {
+            var resposta = await repository.GetAllAsync();
+            return Ok(resposta);
+        }
 
-            [HttpGet()]
-            public IEnumerable<Aluno>Get()
-            {
-                return repository.GetAll();
-            }
+        [HttpGet("{id:int}")]
+        public async Task<IActionResult> GetByIdAsync([FromRoute] int id)
+        {
+            var aluno = await repository.GetByIdAsync(id);
 
-            [HttpGet("{id}")]
-                public IActionResult Get([FromRoute] int id)
-                {
-                var aluno = repository.GetById(id);
-
-                if (aluno == null)
-                    return NotFound();
-                else
-                    return Ok(aluno);
-            }
-
-            [HttpPost()]
-            public IActionResult Post([FromBody]Aluno aluno)
-            {
-                repository.Create(aluno);
+            if (aluno == null)
+                return NotFound();
+            else
                 return Ok(aluno);
-            }
-            
-            [HttpDelete("{id}")]
-            public IActionResult Delete([FromRoute]int id)
+        }
+
+        [HttpPost()]
+        public async Task<IActionResult> PostAsync([FromBody]AlunoCreate model)
+        {
+            var aluno = new Aluno()
             {
-                var aluno = repository.GetById(id);
-                if (aluno == null) return NotFound();
+                Matricula = model.Matricula,
+                Nome = model.Nome,
+                DataNascimento = model.DataNascimento,
+                Telefone = model.Telefone,
+                Email = model.Email
+            };
 
-                repository.Delete(aluno);
-                return Ok(aluno);
-            }
+            repository.Create(aluno);
+            await _unitOfWork.CommitAsync();
 
-            [HttpPut("{id}")] //vai editar uma pessoa de acordo com o id informado e com os dados alterados
-            public IActionResult Put([FromRoute]int id, [FromBody] AlunoUpdate model)
+            return Ok(new
             {
-                var aluno = repository.GetById(id);
-                if (aluno == null) return NotFound();
+                message = "Aluno " + aluno.Nome + " foi adicionado com sucesso!"
+            });
+        }
+        
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> DeleteAsync([FromRoute] int id)
+        {
+            var alunoDeleted = repository.Delete(id);
+            await _unitOfWork.CommitAsync();
 
-                aluno.Nome = model.Nome;
-                aluno.Telefone = model.Telefone;
-                aluno.Email = model.Email;
+            if(alunoDeleted == false)
+                return NotFound();
+            else
+                return Ok(id);   
+        }
 
-                repository.Update(aluno);
-                return Ok(aluno);
-            }
+        [HttpPut("{id}")] //vai editar uma pessoa de acordo com o id informado e com os dados alterados
+        public async Task<IActionResult> PutAsync([FromRoute] int id, [FromBody] AlunoUpdate model)
+        {
+            var aluno = await repository.GetByIdAsync(id);
+            if (aluno == null) return NotFound();
+
+            aluno.Nome = model.Nome;
+            aluno.Telefone = model.Telefone;
+            aluno.Email = model.Email;
+
+            repository.Update(aluno);
+            return Ok(aluno);
         }
     }
 }

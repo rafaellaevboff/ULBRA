@@ -1397,11 +1397,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula13\\CrudPerson\\CrudPerson.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\AP2\\CrudPerson\\CrudPerson.csproj",
       "projectName": "CrudPerson",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula13\\CrudPerson\\CrudPerson.csproj",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\AP2\\CrudPerson\\CrudPerson.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\Aula13\\CrudPerson\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\ULBRA\\GitHub\\Ulbra\\2022-1\\Programação Orientada a Objetos\\AP2\\CrudPerson\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

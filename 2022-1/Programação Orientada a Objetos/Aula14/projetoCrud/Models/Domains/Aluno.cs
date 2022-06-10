@@ -1,3 +1,5 @@
+using System;
+
 namespace projetoCrud.Models.Domains
 {
     public class Aluno
@@ -6,7 +8,7 @@ namespace projetoCrud.Models.Domains
         public int Matricula { get; set; }
         public string Nome { get; set; }
         public DateTime DataNascimento { get; set; }
-        public int Telefone { get; set; }
+        public string Telefone { get; set; }
         public string Email { get; set; }
     }
 }

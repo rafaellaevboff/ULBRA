@@ -1,32 +1,50 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using projetoCrud.Models.Domains;
 
 namespace projetoCrud.Models.Repositories
 {
     public class AlunoRepository : IAlunoRepository
     {
-        public void Create(Aluno obj)
+        private DataContext context;
+        public AlunoRepository(DataContext context)
         {
-            throw new NotImplementedException();
+            this.context = context;
+        }
+        
+        public void Create(Aluno aluno)
+        {
+            context.Add(aluno);
         }
 
-        public void Delete(Aluno obj)
+        public async Task<List<Aluno>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await context.Alunos.ToListAsync();
         }
 
-        public List<Aluno> GetAll()
+        public async Task<Aluno> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await context.Alunos.SingleOrDefaultAsync(x => x.Id == id);
         }
 
-        public Aluno GetById(int id)
+        public bool Delete(int alunoId)
         {
-            throw new NotImplementedException();
+            var aluno = context.Alunos.FirstOrDefault(i => i.Id == alunoId);
+            
+            if(aluno == null)
+                return false;
+            else
+            {
+                context.Alunos.Remove(aluno);
+                return true;
+            }
         }
 
-        public void Update(Aluno obj)
+        public void Update(Aluno aluno)
         {
-            throw new NotImplementedException();
+            context.Entry(aluno).State = EntityState.Modified;
         }
     }
 }
