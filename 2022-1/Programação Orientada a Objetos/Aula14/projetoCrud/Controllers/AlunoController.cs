@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using projetoCrud.DTOs;
 using projetoCrud.Models.Domains;
 using projetoCrud.Models.Repositories;
 using projetoCrud.ViewModels;
@@ -22,19 +23,44 @@ namespace projetoCrud.Controllers
         [HttpGet()]
         public async Task<IActionResult> GetAllAsync()
         {
-            var resposta = await repository.GetAllAsync();
-            return Ok(resposta);
+            var alunosList = await repository.GetAllAsync();
+            List<AlunoDTO> alunosDTO = new List<AlunoDTO>();
+            
+            foreach(Aluno aluno in alunosList){
+                var alunoDTO = new AlunoDTO()
+                {
+                    Id = aluno.Id,
+                    Matricula = aluno.Matricula,
+                    Nome = aluno.Nome,
+                    DataNascimento = aluno.DataNascimento,
+                    Telefone = aluno.Telefone,
+                    Email = aluno.Email,
+                };
+                alunosDTO.Add(alunoDTO);
+            }
+            return Ok(alunosDTO);
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetByIdAsync([FromRoute] int id)
         {
             var aluno = await repository.GetByIdAsync(id);
 
-            if (aluno == null)
+            if(aluno == null)
                 return NotFound();
             else
-                return Ok(aluno);
+            {
+                var alunoDTO = new AlunoDTO()
+                {
+                    Id = aluno.Id,
+                    Matricula = aluno.Matricula,
+                    Nome = aluno.Nome,
+                    DataNascimento = aluno.DataNascimento,
+                    Telefone = aluno.Telefone,
+                    Email = aluno.Email,
+                };
+                return Ok(alunoDTO);
+            }
         }
 
         [HttpPost()]
@@ -58,7 +84,7 @@ namespace projetoCrud.Controllers
             });
         }
         
-        [HttpDelete("{id:int}")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAsync([FromRoute] int id)
         {
             var alunoDeleted = repository.Delete(id);
@@ -70,7 +96,7 @@ namespace projetoCrud.Controllers
                 return Ok(id);   
         }
 
-        [HttpPut("{id}")] //vai editar uma pessoa de acordo com o id informado e com os dados alterados
+        [HttpPatch("{id}")] //vai editar uma pessoa de acordo com o id informado e com os dados alterados
         public async Task<IActionResult> PutAsync([FromRoute] int id, [FromBody] AlunoUpdate model)
         {
             var aluno = await repository.GetByIdAsync(id);
@@ -81,6 +107,7 @@ namespace projetoCrud.Controllers
             aluno.Email = model.Email;
 
             repository.Update(aluno);
+            await _unitOfWork.CommitAsync();
             return Ok(aluno);
         }
     }
