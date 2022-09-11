@@ -1,0 +1,198 @@
+CRITICAL - 2022-06-19 11:29:53 --> Invalid file: pages/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('pages/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 11:32:27 --> Invalid file: pages/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('pages/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 11:34:05 --> Invalid file: pages/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('pages/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 11:35:10 --> Invalid file: pages/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('pages/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 11:37:13 --> Invalid file: pages/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('pages/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:07:27 --> Invalid file: pages/main/home.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/main/home.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/main/home', [], true)
+ 3 APPPATH/Controllers/Admin/Admin.php(11): view('pages/main/home')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin\Admin->index()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:08:16 --> Invalid file: pages/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('pages/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:16:14 --> Invalid file: pages/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('pages/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:17:10 --> Undefined variable $arrayClients
+in APPPATH/Views/client/listClients.php on line 12.
+ 1 APPPATH/Views/client/listClients.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayClients', 'APPPATH/Views/client/listClients.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/client/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/listClients', [], true)
+ 5 APPPATH/Controllers/Client.php(17): view('client/listClients')
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:17:53 --> Unclosed '{' on line 12
+in APPPATH/Views/client/listClients.php on line 32.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('client/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:19:51 --> Invalid file: client/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('client/listClients')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:20:12 --> Undefined variable $arrayClients
+in APPPATH/Views/client/listClients.php on line 12.
+ 1 APPPATH/Views/client/listClients.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayClients', 'APPPATH/Views/client/listClients.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/client/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/listClients', [], true)
+ 5 APPPATH/Controllers/Client.php(17): view('client/listClients')
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:21:14 --> Undefined variable $arrayClients
+in APPPATH/Views/clients/listClients.php on line 12.
+ 1 APPPATH/Views/clients/listClients.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayClients', 'APPPATH/Views/clients/listClients.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/clients/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('clients/listClients', [], true)
+ 5 APPPATH/Controllers/Client.php(17): view('clients/listClients')
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:22:11 --> Undefined variable $arrayClients
+in APPPATH/Views/clients/listClients.php on line 12.
+ 1 APPPATH/Views/clients/listClients.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayClients', 'APPPATH/Views/clients/listClients.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/clients/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('clients/listClients', [], true)
+ 5 APPPATH/Controllers/Client.php(17): view('clients/listClients')
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:22:54 --> Undefined variable $arrayClients
+in APPPATH/Views/clients/listClients.php on line 12.
+ 1 APPPATH/Views/clients/listClients.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $arrayClients', 'APPPATH/Views/clients/listClients.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/clients/listClients.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('clients/listClients', [], true)
+ 5 APPPATH/Controllers/Client.php(17): view('clients/listClients', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:24:19 --> Invalid file: client/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('client/listClients', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:24:40 --> Undefined variable $client
+in APPPATH/Views/clients/detailsClient.php on line 7.
+ 1 APPPATH/Views/clients/detailsClient.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'APPPATH/Views/clients/detailsClient.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/clients/detailsClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('clients/detailsClient', [], true)
+ 5 APPPATH/Controllers/Client.php(29): view('clients/detailsClient')
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->detailsClient('1')
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:25:44 --> Undefined variable $client
+in APPPATH/Views/client/detailsClient.php on line 7.
+ 1 APPPATH/Views/client/detailsClient.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'APPPATH/Views/client/detailsClient.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/client/detailsClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/detailsClient', [], true)
+ 5 APPPATH/Controllers/Client.php(29): view('client/detailsClient')
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->detailsClient('1')
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:36:52 --> Undefined variable $client
+in APPPATH/Views/client/detailsClient.php on line 7.
+ 1 APPPATH/Views/client/detailsClient.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'APPPATH/Views/client/detailsClient.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/client/detailsClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/detailsClient', [], true)
+ 5 APPPATH/Controllers/Client.php(29): view('client/detailsClient')
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->detailsClient('1')
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 12:39:32 --> Undefined variable $client
+in APPPATH/Views/client/detailsClient.php on line 7.
+ 1 APPPATH/Views/client/detailsClient.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'APPPATH/Views/client/detailsClient.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/client/detailsClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/detailsClient', [], true)
+ 5 APPPATH/Controllers/Client.php(29): view('client/detailsClient')
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->detailsClient('2')
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

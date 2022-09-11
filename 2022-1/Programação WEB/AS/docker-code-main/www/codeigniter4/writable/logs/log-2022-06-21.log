@@ -1,0 +1,47 @@
+CRITICAL - 2022-06-21 17:42:55 --> Invalid file: client/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/listClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('client/listClients', [], true)
+ 3 APPPATH/Controllers/Client.php(17): view('client/listClients', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Client->listClient()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 18:13:32 --> Invalid file: admin/client/detailsClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/client/detailsClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/client/detailsClients', [], true)
+ 3 APPPATH/Controllers/Admin/Client.php(28): view('admin/client/detailsClients', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin\Client->detailsClient('1')
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 18:13:58 --> Invalid file: admin/client/detailClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/client/detailClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/client/detailClients', [], true)
+ 3 APPPATH/Controllers/Admin/Client.php(28): view('admin/client/detailClients', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin\Client->detailsClient('1')
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 18:14:06 --> Invalid file: admin/client/detailClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/client/detailClients.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/client/detailClients', [], true)
+ 3 APPPATH/Controllers/Admin/Client.php(28): view('admin/client/detailClients', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin\Client->detailsClient('1')
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 18:14:20 --> Undefined variable $client
+in APPPATH/Views/admin/client/detailsClient.php on line 7.
+ 1 APPPATH/Views/admin/client/detailsClient.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'APPPATH/Views/admin/client/detailsClient.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/client/detailsClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/client/detailsClient', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(28): view('admin/client/detailsClient', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin\Client->detailsClient('1')
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

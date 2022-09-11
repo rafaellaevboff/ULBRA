@@ -1,0 +1,108 @@
+CRITICAL - 2022-06-28 17:45:18 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Contact.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Contact.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Contact')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Contact')
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists('\\App\\Controllers\\Contact', true)
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 17:45:24 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Contact.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Contact.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Contact')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Contact')
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists('\\App\\Controllers\\Contact', true)
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 17:57:47 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Contact.php on line 25.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Contact.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Contact')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Contact')
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists('\\App\\Controllers\\Contact', true)
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 17:58:19 --> Invalid file: pages/sendContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/sendContact.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/sendContact', [], true)
+ 3 APPPATH/Controllers/Contact.php(11): view('pages/sendContact')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Contact->sendContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 18:00:53 --> Invalid file: pages/sendContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/sendContact.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/sendContact', [], true)
+ 3 APPPATH/Controllers/Contact.php(11): view('pages/sendContact')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Contact->sendContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 18:06:23 --> Invalid file: pages/sendContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/sendContact.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/sendContact', [], true)
+ 3 APPPATH/Controllers/Contact.php(11): view('pages/sendContact')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Contact->sendContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 18:07:31 --> Invalid file: pages/sendContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/sendContact.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/sendContact', [], true)
+ 3 APPPATH/Controllers/Contact.php(11): view('pages/sendContact')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Contact->sendContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 18:12:09 --> Invalid file: pages/sendContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/sendContact.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/sendContact', [], true)
+ 3 APPPATH/Controllers/Contact.php(11): view('pages/sendContact')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Contact->sendContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 18:12:46 --> Invalid file: pages/sendContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/sendContact.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/sendContact', [], true)
+ 3 APPPATH/Controllers/Contact.php(11): view('pages/sendContact')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Contact->sendContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 18:13:57 --> Invalid file: pages/sendContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/sendContact.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/sendContact', [], true)
+ 3 APPPATH/Controllers/Contact.php(11): view('pages/sendContact')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Contact->sendContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 18:15:28 --> Invalid file: pages/sendContact.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/sendContact.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('pages/sendContact', [], true)
+ 3 APPPATH/Controllers/Contact.php(11): view('pages/sendContact')
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Contact->sendContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-28 18:18:21 --> Invalid file: admin/client/listContacts.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/client/listContacts.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('admin/client/listContacts', [], true)
+ 3 APPPATH/Controllers/Admin/Contact.php(17): view('admin/client/listContacts', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin\Contact->listContact()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Contact))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

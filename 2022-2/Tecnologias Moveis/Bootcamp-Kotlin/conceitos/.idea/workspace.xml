@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="718a7f32-614f-452a-a011-bb3f72d1f43c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/src/main/kotlin/Classe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../helloWord/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/AP2/CrudPerson/obj/Debug/net6.0/CrudPerson.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/AP2/CrudPerson/obj/Debug/net6.0/CrudPerson.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/AP2/CrudPerson/obj/Debug/net6.0/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/AP2/CrudPerson/obj/Debug/net6.0/project.razor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/app.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/app.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/obj/Debug/net6.0/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/obj/Debug/net6.0/project.razor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/obj/Debug/net6.0/projetoCrud.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/obj/Debug/net6.0/projetoCrud.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/obj/Debug/net6.0/projetoCrud.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2022-1/Programação Orientada a Objetos/Aula14/projetoCrud/obj/Debug/net6.0/projetoCrud.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../2022-1/Programação WEB/aula18/docker-code/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2022-1/Programação WEB/aula18/docker-code/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2DXbT29z8TCiJItW7brP4ypofcF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="718a7f32-614f-452a-a011-bb3f72d1f43c" name="Changes" comment="" />
+      <created>1660848390764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660848390764</updated>
+    </task>
+    <servers />
+  </component>
+</project>
