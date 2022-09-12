@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="718a7f32-614f-452a-a011-bb3f72d1f43c" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -150,6 +151,8 @@
       <change afterPath="$PROJECT_DIR$/../../aulaOO/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../aulaOO/settings.gradle.kts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../aulaOO/src/main/kotlin/main.kt" afterDir="false" />
+=======
+>>>>>>> 00ed0e9edee8c82a3990aa56d9545cf9d5d044f7
       <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../helloWord/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
@@ -195,14 +198,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+=======
+>>>>>>> 00ed0e9edee8c82a3990aa56d9545cf9d5d044f7
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -216,6 +223,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+>>>>>>> 00ed0e9edee8c82a3990aa56d9545cf9d5d044f7
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -225,6 +237,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -280,6 +293,14 @@
       </list>
     </recent_temporary>
   </component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+>>>>>>> 00ed0e9edee8c82a3990aa56d9545cf9d5d044f7
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
