@@ -1,2 +1,0 @@
-<h1>About</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi aspernatur cum quis assumenda? Culpa enim dolore ex quos dolorum tenetur numquam vitae in eaque aspernatur. Nisi eveniet impedit fugit</p>

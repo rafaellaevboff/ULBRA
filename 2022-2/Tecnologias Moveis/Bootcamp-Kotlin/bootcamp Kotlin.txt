@@ -1,0 +1,3 @@
+É uma linguagem concisa, tendo uma melhor visualização do código.
+Os getters e setters não precisam ser "escritos na mão", a linguagem faz isso no nosso lugar.
+É possível utilizar bibliotecas de Java.
