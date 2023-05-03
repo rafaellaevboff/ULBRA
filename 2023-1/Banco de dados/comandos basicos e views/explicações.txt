@@ -1,0 +1,40 @@
+-> Explique quando utilizar o GROUP BY, de um exemplo sql.
+O Group by é usado para agrupar registros de uma ou mais colunas e aplicar funções de agregação (SUM, COUNT, AVG...) pra gerar resumo de dados
+SELECT pais, SUM(qtd_vendas) as total_vendas
+FROM vendas
+GROUP BY pais;
+Nesse exemplo é mostrado o total de vendas por país e o país, o SUM soma todas as vendas e o GROUP BY agrupa essas vendas por país
+
+
+-> Explique quando utilizar o HAVING, de um exemplo sql.
+O HAVING é usado junto com o GROUP BY pra filtrar o que atende a condição desejada. A diferença entre o HAVING e o WHERE é que o HAVING é usado após o GROUP BY e o WHERE é aplicado antes.
+SELECT pais, SUM(qtd_vendas) as total_vendas
+FROM vendas
+GROUP BY pais
+HAVING total_vendas > 500; 
+Nesse exemplo é mostrado o país e total de vendas por país quando o total de vendas for maior que 500.
+
+
+-> Explique quando utilizar o UNION, de um exemplo sql.
+O comando UNION em SQL é utilizado para combinar os resultados de duas ou mais consultas em uma única tabela, eliminando resultados duplicados. As consultas devem retornar o mesmo número de colunas e as colunas devem ter os mesmos TIPOS de dados.
+Usando UNION ALL vai mostrar todos, mas com resultados duplicados, caso houver.
+SELECT nome FROM bebidas
+UNION
+SELECT nome FROM alimentos
+UNION
+SELECT nome FROM produtos_higiene
+Um banco de dados de um supermercado quer listar o nome de todos produtos cadastrados no seu bd, com essa consulta sql é possível.
+
+SELECT id_autor FROM tabela_autores
+UNION
+SELECT id_autor FROM tabela_livros
+Lista todos os id de autores e caso um autor tenha mais de um livro não irá aparecer duplicado na tabela.
+
+
+-> Explique quando utilizar o LEFT JOIN, de um exemplo sql.
+O comando LEFT JOIN em SQL é utilizado para combinar duas ou mais tabelas, retornando todos os registros da tabela da esquerda (primeira tabela listada na consulta) independentemente se houver correspondência na tabela da direita. Se não houver correspondência na tabela da direita o resultado para as colunas correspondentes será  valor NULL.
+A consult SQL a seguir lista todos os clientes e seus pedidos, mesmo que alguns clientes não tenham feito nenhum pedido ainda.
+SELECT c.nome AS nome_cliente, p.id_pedido, p.data_pedido
+FROM clientes c
+LEFT JOIN pedidos p ON c.id_cliente = p.id_cliente;
+A tabela "clientes" é a tabela principal e a tabela "pedidos" é a tabela secundária. O LEFT JOIN indica que será incluido todos os registros da tabela "clientes", independentemente se haver ou não valor correspondente na tabela "pedidos". O ON relaciona o id do cliente com o id do cliente presente no pedido, garantindo que o pedido mostrará o cliente correto.
