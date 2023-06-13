@@ -1,0 +1,65 @@
+{
+	"detentos": [
+		{
+		  "DetentoID": 1,
+		  "Nome": "João Santos",
+		  "Bloco": "A",
+		  "Cela": "50"
+		},
+		{
+			"DetentoID": 2,
+			"Nome": "João Carlos",
+			"Bloco": "B",
+			"Cela": "102"
+		},
+		{
+			"DetentoID": 3,
+			"Nome": "Anderson da Rosa",
+			"Bloco": "C",
+			"Cela": "215"
+		  }
+	],
+	"visitantes": [
+		{
+		  "VisitanteID": 1,
+		  "Nome": "Maria Santos",
+		  "Relacionamento": "Mãe"
+		},
+		{
+			"VisitanteID": 2,
+			"Nome": "Rodrigo Cardoso",
+			"Relacionamento": "Amigo"
+		  },
+		  {
+			"VisitanteID": 3,
+			"Nome": "Camila Silva",
+			"Relacionamento": "Amiga"
+		  }
+	],
+	"visitas": [
+		{
+		  "VisitaID": 1,
+		  "DetentoID": 1,
+		  "VisitanteID": 1,
+		  "DataVisita": "2023-06-01",
+		  "HoraEntrada": "14:00",
+		  "HoraSaida": "16:00"
+		},
+		{
+			"VisitaID": 2,
+			"DetentoID": 3,
+			"VisitanteID": 3,
+			"DataVisita": "2023-06-01",
+			"HoraEntrada": "14:30",
+			"HoraSaida": "16:30"
+		  },
+		  {
+			"VisitaID": 3,
+			"DetentoID": 2,
+			"VisitanteID": 2,
+			"DataVisita": "2023-06-01",
+			"HoraEntrada": "15:00",
+			"HoraSaida": "17:00"
+		  }
+	]
+}

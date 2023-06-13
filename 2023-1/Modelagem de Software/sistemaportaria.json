@@ -1,0 +1,89 @@
+{   
+    "visita1":[{
+        "data": "2023/05/12 11:45:50",
+        "tempo_estadia": 24,
+        "porteiro": [
+            {
+                "nome":"Claudio Silveira",
+                "email":"claudiosilveira@gmail.com",
+                "telefone": "51968545865",
+                "turno": "matutino",
+                "endereco": "Torres"
+            }
+        ],
+        "visitante":[
+            {
+                "nome": "Felipe Carlos Duarte",
+                "tipoVisitante":"frequente"
+            },
+            {
+                "nome": "Bruna Cardoso Lima",
+                "tipoVisitante":"novo"
+            }
+        ],
+        "morador":[
+            {
+                "nome":"Roberto da Cruz Silva",
+                "email":"robertocruz@gmail.com",
+                "telefone": "51968524165",
+                "dataMudanca": "2020/05/16",
+                "status": "ativo",
+                "Apartamento": {
+                    "nome":"apto15",
+                    "Predio":{
+                        "nome": "predio3",
+                        "setor":"norte"
+                    }
+                }
+            },
+            {
+                "nome": "Patrícia Costa Silva",
+                "email": "patriciacosta@gmail.com",
+                "telefone": "51968528565",
+                "dataMudanca": "2020/05/16",
+                "status": "ativo",
+                "Apartamento": {
+                    "nome":"apto15",
+                    "Predio":{
+                        "nome": "predio3",
+                        "setor":"norte"
+                    }
+                }
+            }
+        ]
+    }],
+
+    "visita2":[{
+        "data": "2023/05/15 19:30:20",
+        "tempo_estadia": 24,
+        "porteiro": [
+            {
+                "nome":"Fabio Silveira",
+                "email":"fabiosilveira@gmail.com",
+                "telefone": "51968545865",
+                "turno": "noturno",
+                "endereco": "Torres"
+            }
+        ],
+        "visitante":
+        {
+            "nome": "Bruna Cardoso Lima",
+            "tipoVisitante":"novo"
+        },
+        "morador":
+        {
+            "nome": "Patrícia Costa Silva",
+            "email": "patriciacosta@gmail.com",
+            "telefone": "51968528565",
+            "dataMudanca": "2020/05/16",
+            "status": "ativo",
+            "Apartamento": {
+                "nome":"apto15",
+                "Predio":{
+                    "nome": "predio3",
+                    "setor":"norte"
+                }
+            }
+        }
+    }]
+}
