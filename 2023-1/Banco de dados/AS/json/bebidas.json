@@ -1,0 +1,84 @@
+{
+    "bebidas":[
+        {
+            "nome": "Água mineral",
+            "volume":"500ml",
+            "valor": 2.50
+        },
+        {
+            "nome": "Água com gás",
+            "volume":"500ml",
+            "valor": 3.00
+        },
+        {
+            "nome": "Água mineral",
+            "volume":"1l",
+            "valor": 5
+        },
+        {
+            "nome": "Água com Gás",
+            "volume":"1l",
+            "valor": 6
+        },
+        {
+            "nome": "Pepsi",
+            "volume":"600ml",
+            "valor": 5
+        },
+        {
+            "nome": "Guaraná",
+            "volume":"600ml",
+            "valor": 5
+        },
+        {
+            "nome": "Coca-Cola",
+            "volume":"600ml",
+            "valor": 5
+        },
+        {
+            "nome": "Sprite",
+            "volume":"600ml",
+            "valor": 5
+        },
+        {
+            "nome": "Fanta Uva",
+            "volume":"600ml",
+            "valor": 5
+        },
+        {
+            "nome": "Fanta Guaraná",
+            "volume":"600ml",
+            "valor": 5
+        },
+        {
+            "nome": "Pepsi",
+            "volume":"2l",
+            "valor": 10
+        },
+        {
+            "nome": "Guaraná",
+            "volume":"2l",
+            "valor": 10
+        },
+        {
+            "nome": "Coca-Cola",
+            "volume":"2l",
+            "valor": 10
+        },
+        {
+            "nome": "Sprite",
+            "volume":"2 l",
+            "valor": 10
+        },
+        {
+            "nome": "Fanta Uva",
+            "volume":"2l",
+            "valor": 10
+        },
+        {
+            "nome": "Fanta Guaraná",
+            
+            "valor": 10
+        }
+    ]
+}

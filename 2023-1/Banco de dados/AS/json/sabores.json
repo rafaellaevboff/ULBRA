@@ -1,0 +1,64 @@
+{
+    "sabores":[
+        {
+            "nome": "calabresa",
+            "valor":20
+        },
+        {
+            "nome": "quatro queijos",
+            "valor":25
+        },
+        {
+            "nome": "coração",
+            "valor":35
+        },
+        {
+            "nome": "da casa",
+            "valor":30
+        },
+        {
+            "nome": "portuguesa",
+            "valor":25
+        },
+        {
+            "nome": "alho e óleo",
+            "valor":30
+        },
+        {
+            "nome": "bacon",
+            "valor":30
+        },
+        {
+            "nome": "frango com catupiry",
+            "valor":25
+        },
+        {
+            "nome": "chocolate preto com morango",
+            "valor":20
+        },
+        {
+            "nome": "chocolate preto e mm",
+            "valor":20
+        },
+        {
+            "nome": "chocolate branco com morango",
+            "valor":20
+        },
+        {
+            "nome": "chocolate branco e mms",
+            "valor":20
+        },
+        {
+            "nome": "banana com canela",
+            "valor":20
+        },
+        {
+            "nome": "prestígio",
+            "valor":20
+        },
+        {
+            "nome": "charge",
+            "valor":20
+        }
+    ]
+}

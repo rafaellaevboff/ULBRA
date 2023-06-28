@@ -1,0 +1,16 @@
+{
+    "tamanhos":[
+        {
+            "tamanho":"P",
+            "valor":10
+        },
+        {
+            "tamanho":"M",
+            "valor":20
+        },
+        {
+            "tamanho":"G",
+            "valor":30
+        }
+    ]
+}

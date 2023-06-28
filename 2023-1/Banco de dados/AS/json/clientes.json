@@ -1,0 +1,106 @@
+{
+    "clientes": [
+        {
+            "nome": "João Silva",
+            "telefone": "(11) 1234-5678",
+            "endereço": "Rua A, 123"
+        },
+        {
+            "nome": "Maria Santos",
+            "telefone": "(11) 2345-6789",
+            "endereço": "Avenida B, 456"
+        },
+        {
+            "nome": "Carlos Oliveira",
+            "telefone": "(11) 3456-7890",
+            "endereço": "Rua C, 789"
+        },
+        {
+            "nome": "Ana Pereira",
+            "telefone": "(11) 4567-8901",
+            "endereço": "Avenida D, 012"
+        },
+        {
+            "nome": "Pedro Almeida",
+            "telefone": "(11) 5678-9012",
+            "endereço": "Rua E, 345"
+        },
+        {
+            "nome": "Mariana Costa",
+            "telefone": "(11) 6789-0123",
+            "endereço": "Avenida F, 678"
+        },
+        {
+            "nome": "José Santos",
+            "telefone": "(11) 7890-1234",
+            "endereço": "Rua G, 901"
+        },
+        {
+            "nome": "Fernanda Rodrigues",
+            "telefone": "(11) 8901-2345",
+            "endereço": "Avenida H, 234"
+        },
+        {
+            "nome": "Ricardo Souza",
+            "telefone": "(11) 9012-3456",
+            "endereço": "Rua I, 567"
+        },
+        {
+            "nome": "Amanda Lima",
+            "telefone": "(11) 0123-4567",
+            "endereço": "Avenida J, 890"
+        },
+        {
+            "nome": "Daniel Gonçalves",
+            "telefone": "(11) 1234-5678",
+            "endereço": "Rua K, 123"
+        },
+        {
+            "nome": "Laura Carvalho",
+            "telefone": "(11) 2345-6789",
+            "endereço": "Avenida L, 456"
+        },
+        {
+            "nome": "Paulo Martins",
+            "telefone": "(11) 3456-7890",
+            "endereço": "Rua M, 789"
+        },
+        {
+            "nome": "Lúcia Oliveira",
+            "telefone": "(11) 4567-8901",
+            "endereço": "Avenida N, 012"
+        },
+        {
+            "nome": "Gustavo Pereira",
+            "telefone": "(11) 5678-9012",
+            "endereço": "Rua O, 345"
+        },
+        {
+            "nome": "Mariana Almeida",
+            "telefone": "(11) 6789-0123",
+            "endereço": "Avenida P, 678"
+        },
+        {
+            "nome": "Roberto Costa",
+            "telefone": "(11) 7890-1234",
+            "endereço": "Rua Q, 901"
+        },
+        {
+            "nome": "Patrícia Santos",
+            "telefone": "(11) 8901-2345",
+            "endereço": "Avenida R, 234"
+        },
+        {
+            "nome": "Fábio Rodrigues",
+            "telefone": "(11) 9012-3456",
+            "endereço": "Rua S, 567"
+        },
+        {
+            "nome": "Mariana Lima",
+            "telefone": "(11) 0123-4567",
+            "endereço": "Avenida T, 890"
+        }
+    ]
+}
+     
+  
