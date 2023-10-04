@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import Gallery from './components/Gallery'
 import './App.css';
+
+const profilesData = [
+  {
+    name: 'Nome1',
+    image: 'https://i.imgur.com/szV5sdG.jpeg',
+    profession: 'Profissão1',
+    awards: 'Prêmios1',
+    discoveries: 'Descobertas1',
+  },
+  {
+    name: 'Nome2',
+    image: 'https://i.imgur.com/YfeOqp2.jpeg',
+    profession: 'Profissão2',
+    awards: 'Prêmios2',
+    discoveries: 'Descobertas2',
+  },
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Gallery title="Galeria de Perfis" profiles={profilesData} />
     </div>
   );
 }
