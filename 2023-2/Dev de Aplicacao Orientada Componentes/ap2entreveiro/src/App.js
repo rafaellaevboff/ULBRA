@@ -1,8 +1,8 @@
-import Header from './components/Header'
+import Header from './components/Header/Header'
 import './App.css';
-import Localizacao from './components/Localizacao';
-import Participantes from './Pages/Participantes';
-import Formulario from './components/Formulario';
+import Localizacao from './components/Localizacao/Localizacao';
+import Participantes from './Pages/Participantes/Participantes';
+import Formulario from './components/Formulario/Formulario';
 
 function App() {
 
@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <Header nomeEvento={'Entreveiro'} usuario={'Rafaella'} />
-      <Localizacao/>
+      <Localizacao cep={'88801-003'}/>
       <div style={container}>
         <div style={left}><Participantes/></div>
         <div style={right}><Formulario/></div>       

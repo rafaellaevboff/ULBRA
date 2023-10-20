@@ -1,5 +1,6 @@
-import CardPresenca from '../components/CardPresenca';
-import { data } from '../data'
+import CardPresenca from '../../components/CardPresenca/CardPresenca';
+import { data } from '../../data'
+import './Participantes.css'
 
 const Participantes = () =>{
 

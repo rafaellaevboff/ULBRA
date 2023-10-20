@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Formulario.css'
 
 const Formulario = () =>{
     const [formData, setFormData] = useState({
@@ -18,7 +19,7 @@ const Formulario = () =>{
         });
       };
 
-    const mandarSubmit = (e) =>{
+    const mandarSubmit = () =>{
         const data = `export const userData = ${JSON.stringify(formData)}`
         const blob = new Blob([data], {type: 'text/javascript'});
         const url = window.URL.createObjectURL(blob);
@@ -29,25 +30,21 @@ const Formulario = () =>{
         window.URL.revokeObjectURL(url);
     }
 
-    const fundo = {
-        backgroundColor: '#D9D9D9',
-    }
-
     return(
-        <div style={fundo} className="formulario">
+        <div className="formulario">
             <form>
                 <div>
-                    <label>Nome</label><br/>
+                    <label className="identificador">Nome</label><br/>
                     <input type="text" name="nome" value={formData.nome} onChange={handleChange}/><br/>
                 </div>
 
                 <div>
-                    <label>Telefone</label><br/>
+                    <label className="identificador">Telefone</label><br/>
                     <input type="tel" name="telefone" value={formData.telefone} onChange={handleChange}/><br/>
                 </div>
 
                 <div>
-                    <label>Egresso/Convidado</label><br/>
+                    <label className="identificador">Egresso/Convidado</label><br/>
                     <input type="radio" name="tipo" value="sim" checked={formData.tipo === "sim"} onChange={handleChange}/>
                     <label htmlFor="sim">Sim</label>
                     <input type="radio" name="tipo" value="nao" checked={formData.tipo === "nao"} onChange={handleChange}/>
@@ -55,7 +52,7 @@ const Formulario = () =>{
                 </div>
                 
                 <div>
-                    <label>Pago</label><br />
+                    <label className="identificador">Pago</label><br />
                     <input type="radio" name="pago" value="sim" checked={formData.pago === "sim"} onChange={handleChange}/>
 
                     <label htmlFor="sim">Sim</label>
@@ -65,7 +62,7 @@ const Formulario = () =>{
 
                 
                 <div>
-                    <label>Foto</label><br/>
+                    <label className="identificador">Foto</label><br/>
                     <input type="text" name="img" value={formData.img} onChange={handleChange}/><br/>
                 </div>
                 

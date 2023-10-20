@@ -1,0 +1,6 @@
+.estiloHeader{
+    background-color: '#0056b3';
+    display: 'flex';
+    justify-content:'center';
+    color:'white'
+}
