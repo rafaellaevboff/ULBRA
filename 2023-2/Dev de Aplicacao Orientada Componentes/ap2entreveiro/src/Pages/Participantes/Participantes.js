@@ -1,18 +1,31 @@
 import CardPresenca from '../../components/CardPresenca/CardPresenca';
-import { data } from '../../data'
-import './Participantes.css'
+import React, { useEffect, useState } from 'react';
+import './Participantes.css';
 
-const Participantes = () =>{
+const Participantes = () => {
+  const [data, setData] = useState([]);
 
-    const cards = data.map((item, index) =>(
-        <CardPresenca nome={item.nome} tipo={item.tipo} pagamento={item.pago} imagem={item.img} key={index}/>
-    ))
+  const getLocalStorageData = () => {
+    const localStorageData = JSON.parse(localStorage.getItem('formData'));
 
-    return(
-        <div>
-            {cards}
-        </div>
-    )
-}
+    if (localStorageData) {
+      setData(localStorageData);
+    }
+  };
+
+  useEffect(() => {
+    getLocalStorageData();
+  }, []);
+
+  const cards = data.map((item, index) => (
+    <CardPresenca nome={item.nome} tipo={item.tipo} pagamento={item.pago} imagem={item.img} key={index} />
+  ));
+
+  return (
+    <div className='card-container'>
+      {cards}
+    </div>
+  );
+};
 
 export default Participantes;

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
+import './Localizacao.css'
 
 const Localizacao = ({cep}) => {
-
   const [enable, setEnable] = useState(false)
   const [endereco, setEndereco] = useState(null);
 
@@ -13,7 +13,7 @@ const Localizacao = ({cep}) => {
       fetch(`https://viacep.com.br/ws/${cep}/json/`)
     .then((response) => response.json())
     .then((data) => {
-      if (data.cep) {
+      if (data) {
         setEndereco(data);
       } else {
         setEndereco(null);
@@ -22,12 +22,12 @@ const Localizacao = ({cep}) => {
     .catch((error) => {
       console.error('Ocorreu um erro ao buscar o endereço:', error);
     });
-  });
+  },[cep]);
 
   return(
       <div className="localizacao">
           
-          <button onClick={handleClickEnableDetails}>Localização</button>
+          <button style={{padding: '20px', width: '200px'}} onClick={handleClickEnableDetails}>Localização</button>
 
           {enable && 
               <div className="container">

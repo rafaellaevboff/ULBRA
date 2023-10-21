@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header nomeEvento={'Entreveiro'} usuario={'Rafaella'} />
+      <Header nomeEvento={'Entrevero'} usuario={'Rafaella'} />
       <Localizacao cep={'88801-003'}/>
       <div style={container}>
         <div style={left}><Participantes/></div>
