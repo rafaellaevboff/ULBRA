@@ -3,8 +3,8 @@ import './CardPresenca.css';
 
 const CardPresenca = ({nome, imagem, tipo, pagamento}) => {
     
-    const tipoParticipante = tipo === 'true' ? 'Egresso/Convidado' : 'Estudante'
-    const presencaParticipante = pagamento === 'true' ? 'Confirmado' : "Não confirmado"
+    const tipoParticipante = tipo === 'sim' ? 'Egresso/Convidado' : 'Estudante'
+    const presencaParticipante = pagamento === 'sim' ? 'Confirmado' : "Não confirmado"
 
     return(
     
