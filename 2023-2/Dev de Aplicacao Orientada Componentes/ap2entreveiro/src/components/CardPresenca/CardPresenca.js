@@ -1,10 +1,10 @@
 import ImagensPerfil from "../ImagensPerfil";
 import './CardPresenca.css';
 
-const CardPresenca = ({nome, imagem, tipo, pagamento}) => {
+const CardPresenca = (props) => {
     
-    const tipoParticipante = tipo === 'sim' ? 'Egresso/Convidado' : 'Estudante'
-    const presencaParticipante = pagamento === 'sim' ? 'Confirmado' : "Não confirmado"
+    const tipoParticipante = props.tipo === 'sim' ? 'Egresso/Convidado' : 'Estudante'
+    const presencaParticipante = props.pagamento === 'sim' ? 'Confirmado' : "Não confirmado"
 
     return(
     
@@ -12,11 +12,11 @@ const CardPresenca = ({nome, imagem, tipo, pagamento}) => {
             <div className="image-content">
                 <span className="overlay"></span>
                 <div className="card-image">
-                <ImagensPerfil imagemUrl={imagem} tamanho={150}/>
+                <ImagensPerfil imagemUrl={props.imagem} tamanho={150}/>
                 </div>
             </div>
             <div className="card-content">
-                    <h2 className="name">{nome}</h2>
+                    <h2 className="name">{props.nome}</h2>
                 <p className="description">{tipoParticipante}</p>
                 <p className="description">{presencaParticipante}</p>
             </div>
